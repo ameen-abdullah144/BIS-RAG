@@ -1,0 +1,5 @@
+- [Phase Information](phases-info.md) — Reference for project phases provided by user
+- [Frontend Completion](frontend-completion.md) — Completed frontend development for BIS RAG chatbot interface
+- [Backend Completion](backend-completion.md) — Completed backend development for BIS RAG chatbot service
+- [RAG Completion](rag-completion.md) — Completed LLM RAG system development for BIS document querying
+- [Datapipeline Completion](datapipeline-completion.md) — Completed data pipeline development for BIS knowledge ingestion

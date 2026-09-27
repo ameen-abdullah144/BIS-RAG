@@ -1,0 +1,258 @@
+{
+  "$schema": "pipeline_config.schema.json",
+  "version": "1.0.0",
+  "description": "Configuration for BIS Knowledge Ingestion Pipeline Orchestrator",
+
+  "pipeline": {
+    "name": "BIS Knowledge Ingestion Pipeline",
+    "description": "Automated pipeline for collecting, processing, validating, indexing, and reporting on BIS standards documents",
+    "execution_mode": "sequential",  // Options: sequential, parallel_phases
+    "continue_on_error": true,
+    "max_retries_per_phase": 3,
+    "retry_delay_seconds": 5,
+    "timeout_per_phase_minutes": 60,
+    "enable_progress_logging": true,
+    "log_level": "INFO"
+  },
+
+  "is_number_management": {
+    "enabled": true,
+    "storage_dir": "is_number_state",
+    "initial_sources": [
+      {
+        "type": "config_list",
+        "is_numbers": [
+          "IS 2082",
+          "IS 302",
+          "IS 368",
+          "IS 17150"
+        ],
+        "description": "Initial IS numbers for water heaters and related appliances"
+      }
+    ],
+    "discovery": {
+      "enabled": true,
+      "sources": [
+        {
+          "type": "directory_scan",
+          "path": "storage/data",
+          "pattern": "IS_*",
+          "extract_is_numbers": true,
+          "description": "Discover IS numbers from existing data directory structure"
+        }
+      ],
+      "polling_interval_seconds": 300,  // 5 minutes
+      "max_new_per_poll": 50
+    },
+    "batch_size": 10,
+    "auto_retry_failed": true,
+    "max_failed_retries": 3
+  },
+
+  "phases": {
+    "collection": {
+      "enabled": true,
+      "timeout_minutes": 30,
+      "continue_on_error": true,
+      "collectors": {
+        "kys": {
+          "enabled": true,
+          "script": "collectors/kys.py",
+          "args": {},
+          "description": "Knowledge and Youth Standards collection"
+        },
+        "product_manuals": {
+          "enabled": true,
+          "script": "collectors/product_manuals.py",
+          "args": {},
+          "description": "Product Manuals collection"
+        },
+        "labs": {
+          "enabled": true,
+          "script": "collectors/labs.py",
+          "args": {},
+          "description": "Laboratory Standards collection"
+        },
+        "qco": {
+          "enabled": true,
+          "script": "collectors/qco.py",
+          "args": {},
+          "description": "Quality Control Orders collection"
+        },
+        "sit": {
+          "enabled": true,
+          "script": "collectors/sit.py",
+          "args": {},
+          "description": "Standard Implementation and Testing collection"
+        },
+        "amendments": {
+          "enabled": true,
+          "script": "collectors/amendments.py",
+          "args": {},
+          "description": "Amendments collection"
+        },
+        "guidelines": {
+          "enabled": true,
+          "script": "collectors/guidelines.py",
+          "args": {},
+          "description": "Guidelines collection"
+        }
+      },
+      "output_dir": "storage/data",
+      "verify_downloads": true,
+      "max_concurrent_collectors": 3
+    },
+
+    "processing": {
+      "enabled": true,
+      "timeout_minutes": 60,
+      "continue_on_error": true,
+      "processors": {
+        "text_extractor": {
+          "enabled": true,
+          "script": "processors/text_extractor.py",
+          "args": {},
+          "description": "PDF text extraction and cleaning"
+        }
+      },
+      "input_dir": "storage/data",
+      "output_dir": "storage/processed",
+      "max_concurrent_processors": 4,
+      "skip_if_exists": true,
+      "force_reprocess": false
+    },
+
+    "validation": {
+      "enabled": true,
+      "timeout_minutes": 45,
+      "continue_on_error": true,
+      "validators": {
+        "kys": {
+          "enabled": true,
+          "script": "verify_kys_single.py",
+          "args": {},
+          "description": "Knowledge and Youth Standards validation"
+        },
+        "product_manuals": {
+          "enabled": true,
+          "script": "verify_pm_single.py",
+          "args": {},
+          "description": "Product Manuals validation"
+        },
+        "labs": {
+          "enabled": true,
+          "script": "verify_labs_single.py",
+          "args": {},
+          "description": "Laboratory Standards validation"
+        },
+        "qco": {
+          "enabled": true,
+          "script": "verify_qco_single.py",
+          "args": {},
+          "description": "Quality Control Orders validation"
+        },
+        "sit": {
+          "enabled": true,
+          "script": "verify_sit_single.py",
+          "args": {},
+          "description": "Standard Implementation and Testing validation"
+        },
+        "amendments": {
+          "enabled": true,
+          "script": "verify_amendments_single.py",
+          "args": {},
+          "description": "Amendments validation"
+        },
+        "guidelines": {
+          "enabled": true,
+          "script": "verify_guidelines_single.py",
+          "args": {},
+          "description": "Guidelines validation"
+        }
+      },
+      "validation_threshold": {
+        "min_pass_rate": 0.8,  // 80% must pass to continue
+        "critical_failure_threshold": 0.5  // If <50% pass, stop pipeline
+      },
+      "generate_report": true,
+      "report_dir": "reports/validation"
+    },
+
+    "indexing": {
+      "enabled": true,
+      "timeout_minutes": 30,
+      "continue_on_error": false,  // Indexing failure stops pipeline
+      "indexer": {
+        "script": "scripts/build_vectorstore.py",
+        "args": {
+          "storage_path": "storage/processed",
+          "batch_size": 16
+        },
+        "description": "Build FAISS vector store from processed documents"
+      },
+      "input_dir": "storage/processed",
+      "output_dir": "storage/vectorstore",
+      "verify_index": true,
+      "test_queries": [
+        "water heater safety requirements",
+        "electrical appliance testing procedures",
+        "quality control order compliance"
+      ],
+      "min_results_per_query": 1
+    },
+
+    "reporting": {
+      "enabled": true,
+      "timeout_minutes": 15,
+      "continue_on_error": true,
+      "report_generator": {
+        "script": "scripts/generate_pipeline_report.py",  // To be created
+        "args": {},
+        "description": "Generate comprehensive pipeline execution report"
+      },
+      "include_metrics": true,
+      "include_is_number_stats": true,
+      "include_phase_timings": true,
+      "output_dir": "reports/pipeline",
+      "formats": ["json", "html", "markdown"],
+      "archive_logs": true,
+      "cleanup_temp_files": false
+    }
+  },
+
+  "notifications": {
+    "enabled": false,
+    "email": {
+      "enabled": false,
+      "smtp_server": "",
+      "smtp_port": 587,
+      "use_tls": true,
+      "username": "",
+      "password": "",
+      "from_address": "",
+      "to_addresses": [],
+      "on_success": true,
+      "on_failure": true,
+      "on_warning": false
+    },
+    "webhook": {
+      "enabled": false,
+      "url": "",
+      "headers": {},
+      "on_success": true,
+      "on_failure": true,
+      "on_warning": false
+    }
+  },
+
+  "advanced": {
+    "enable_checkpointing": true,
+    "checkpoint_interval_minutes": 10,
+    "resume_from_checkpoint": false,
+    "enable_resource_monitoring": true,
+    "max_memory_mb": 2048,
+    "max_disk_usage_gb": 10,
+    "temp_dir": "temp",
+    "cleanup_on_exit": false
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "is_number": "IS 302 (Part 2/Sec 21):2018",
+  "doc_no": "302",
+  "part": "2",
+  "section": "21",
+  "year": "2018",
+  "title": "Particular requirements - stationary storage type electric water heaters (safety base standard)",
+  "class": "SUPPORTING",
+  "fuel_type": null,
+  "standard_enc_id": "eyJpdiI6IjZuWTc0eVExelY5ZDRseS9xdGRTT0E9PSIsInZhbHVlIjoiMTY2MkxpbFd0UlNTTVZCbEVzUXgrQT09IiwibWFjIjoiMDM4ZDA4YWFmZTUwNTI0OTk5ZjUyZDBhMzI3YTY4MjVjOWNhZDc3OGFlZWRkYmIyOTY0Yjc3OGQ0ZWNmNzBjNCIsInRhZyI6IiJ9",
+  "standard_id": 9523,
+  "standard_number_api": "IS 302 (Part 2/Sec 21):2018",
+  "standard_name_api": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+  "published_on": "2018-10-31",
+  "valid_upto": "2023-10-31",
+  "withdraw_status": 0,
+  "department_id": 65,
+  "committee_id": 265,
+  "full_standard_access": "restricted",
+  "collection_status": {
+    "metadata": "available",
+    "product_manual": "available",
+    "sit": "pending",
+    "amendments": "available",
+    "qco_gazette": "available",
+    "laboratories": "available",
+    "guidelines": "not_found"
+  },
+  "product_manuals": [
+    {
+      "local_path": "storage\\data\\IS_302_Part_2_Sec_21\\documents\\PM_302-2-21-approved.pdf",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2023/01/PM_302-2-21-approved.pdf",
+      "sha256": "2476b774c34c4395d0161d2e3d799372704b67d8b155bf726126a27e579a6a40",
+      "retrieved_at": "2026-09-24T20:28:44.769719+00:00",
+      "status": "downloaded",
+      "document_type": "product_manual",
+      "document_id": "DOC_302_PM_1"
+    }
+  ],
+  "laboratories": [
+    {
+      "S.No.": "1",
+      "Lab Name": "BIS, Central Laboratory (CL)",
+      "Osl Code": "None",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "- \n-",
+      "Validity Date": "-",
+      "Remark": "-\nOK"
+    },
+    {
+      "S.No.": "2",
+      "Lab Name": "Conformity Testing Labs Pvt. Ltd. Unit 2 (A33)",
+      "Osl Code": "8139626",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "5 Apr, 2027",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "3",
+      "Lab Name": "Global Scientific Solution (P) Ltd.",
+      "Osl Code": "8189526",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "rated voltage being not more than 250V for single-phase appliances and 480V for other appliances.",
+      "Testing Charges (Excl. Of Taxes)": "9000 \n-",
+      "Validity Date": "31 Oct, 2028",
+      "Remark": "-\nIncluded w.e.f 08.12.2025 EMI/EMC 19.11.4.1 to 19.11.4.7"
+    },
+    {
+      "S.No.": "4",
+      "Lab Name": "Vardhamana Testing Laboratory OPC Pvt. Ltd.",
+      "Osl Code": "8178226",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "Stationary Storage Type Electric Water Heaters",
+      "Testing Charges (Excl. Of Taxes)": "25000 \n-",
+      "Validity Date": "29 Apr, 2027",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "5",
+      "Lab Name": "BUREAU VERITAS CONSUMER PRODUCTS SERVICES INDIA PRIVATE LIMITED, NOIDA",
+      "Osl Code": "8127706",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "59000 \n-",
+      "Validity Date": "31 Dec, 2029",
+      "Remark": "-\nIncluded w.e.f.20.06.2025 Exclusion (EMI/EMC)Cl 19.11.4.1 TO Cl 19.11.4.7"
+    },
+    {
+      "S.No.": "6",
+      "Lab Name": "TUV Rheinland (India) Pvt. Ltd (6126126), Bengaluru",
+      "Osl Code": "6126126",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "97000 \n-",
+      "Validity Date": "17 Feb, 2028",
+      "Remark": "-\nExclusion: Cl 19.11.4.1-19.11.4.7 (EMI/EMC), Cl 22.0 (Construction), Cl 24 (Components)"
+    },
+    {
+      "S.No.": "7",
+      "Lab Name": "Aaditech Test and Calibration Lab LLP",
+      "Osl Code": "8179926",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "elecrtical",
+      "Testing Charges (Excl. Of Taxes)": "9000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nIncluded w.e.f 03.02.2025 Exclusion : Cl 19.11.4.1 TO 19.11.4.7 (EMI/EMC)"
+    },
+    {
+      "S.No.": "8",
+      "Lab Name": "Cotecna Inspection India Private Limited, Gurugram",
+      "Osl Code": "8166106",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "19000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nExcl: Abnormal operation (Cl.19.11.4.1 to 19.11.4.4)"
+    },
+    {
+      "S.No.": "9",
+      "Lab Name": "ALAIPURIA TEST HOUSE PRIVATE LIMITED, GHAZIABAD",
+      "Osl Code": "8180426",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "13600 \n-",
+      "Validity Date": "3 Oct, 2027",
+      "Remark": "-\nCl 19.11.4.1 to Cl 19.11.4.7 32 (RADIATION TOXICITY AND SIMILAR HAZARDS)"
+    },
+    {
+      "S.No.": "10",
+      "Lab Name": "Bharat Test House Pvt Ltd 781 Sonipat Haryana",
+      "Osl Code": "9137826",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "1200 \nFor BIS Samples:1.5 times of BIS Testing charges, For Others:",
+      "Validity Date": "31 Dec, 2029",
+      "Remark": "-\nREVISED TESTING CHARGES W.E.F. 5-7-2021. Included w.e.f 29-07-2020. EMI/EMC tests (Electrostatic discharges, radiant fields, fast transient bursts, voltage surges, injected current, voltage dip and interruption, mains signals) (Cl.19.11.4.1 to 19.11.4.7), Components (Capacitors for radio interference suppression, isolating transformer, coupler) (Cl.24.1.1, 24.1.2, 24.1.5) Excluding cl.19.11.4.1 to 19.11.4.7_ EMI/EMC tests(Electrostatic Discharges, Radiant Fields, Fast Transient bursts, Voltage surges, Injected current, Voltage dips & Interruptions, Mains signals), Cl. 24.1.1,24.1.2,24.1.5_Components (Capacitors for radio interference suppression, isolating transformer, coupler)"
+    },
+    {
+      "S.No.": "11",
+      "Lab Name": "Classic Testing & Research Centre (B17), Noida",
+      "Osl Code": "8180826",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "25000 \n20% concession in testing charges to BIS",
+      "Validity Date": "15 Oct, 2027",
+      "Remark": "-\nExclusion: 19.11.4.2(Radiated field),19.11.4.5(Immunity to conducted discharges)"
+    },
+    {
+      "S.No.": "12",
+      "Lab Name": "THE NATIONAL SMALL INDUSTRIES CORPORATION LIMITED, TECHNICAL SERVICES CENTRE - NSIC, Rajpura",
+      "Osl Code": "9111924",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "11000 \n-",
+      "Validity Date": "31 Dec, 2026",
+      "Remark": "-\nExcluding Cl.19.11.4.1 to Cl.19.11.4.7 (EMI/EMC Test) Cl.32 (Radiation, Toxicity and Similar Hazards)"
+    },
+    {
+      "S.No.": "13",
+      "Lab Name": "POWERONIC TEST & RESEARCH CENTRE PRIVATE LIMITED, GREATER NOIDA",
+      "Osl Code": "8170206",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "Safety of household and similar electrical appliances:",
+      "Testing Charges (Excl. Of Taxes)": "10000 \n-",
+      "Validity Date": "11 Apr, 2028",
+      "Remark": "-\nIncluded w.e.f. 08-08-2022. Exclusion: 19.0 (Abnormal Operation) 24 (Components)"
+    },
+    {
+      "S.No.": "14",
+      "Lab Name": "National Test House (WR) - NTH, Mumbai",
+      "Osl Code": "7107604",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nIncluded w.e.f. 31.07.2024 Exclusion: Cl. 19.11.4.2 (Radiated fields), Cl. 32 (RADIATION TOXICITY AND SIMILAR HAZARDS)"
+    },
+    {
+      "S.No.": "15",
+      "Lab Name": "ABSOLUTE EXPERTISE TESTING LABORATORY LLP",
+      "Osl Code": "8176726",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "16500 \n-",
+      "Validity Date": "11 Mar, 2027",
+      "Remark": "-\nExclusion: Cl. 19.11.4.1 (Electrostatic discharges), Cl. 19.11.4.2 (Radiated fields), Cl. 19.11.4.3 (Fast transient bursts), Cl. 19.11.4.4 (Surge immunity test), Cl. 19.11.4.5 (Immunity to conducted discharges), Cl. 19.11.4.6 (Class 3 Voltage dips and interruptions), Cl. 19.11.4.7 (Harmonics Test), Cl. 24 (Components)"
+    },
+    {
+      "S.No.": "16",
+      "Lab Name": "Hi Physix Laboratory India Private Limited, Pune",
+      "Osl Code": "7126926",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "71875 \n-",
+      "Validity Date": "20 Jun, 2028",
+      "Remark": "-\nINCLUDED W.E.F. 7-7-2021. Exclusion: EMI/EMC (Cl.19.11.4.1 to 19.11.4.7), capacitor test (Cl.24.1.1), switching cycle operation test (Cl.24.1.3), automatic control cycle operation (Cl.24.1.4), Appliance coupler and interconnection coupler test (Cl.24.1.5), Lamp holder test (Cl.24.1.6), capacitor in auxiliary winding of motor test (cl.24.5), motors basic insulation test (Cl.24.6)"
+    },
+    {
+      "S.No.": "17",
+      "Lab Name": "IEC TEST LABS LLP",
+      "Osl Code": "8165726",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "STATIONARY STORAGE TYPE ELECTRIC WATER HEATERS",
+      "Testing Charges (Excl. Of Taxes)": "30000 \nRs.30000/-(20% discount to BIS).",
+      "Validity Date": "7 Sep, 2029",
+      "Remark": "-\nIncluded w.e.f. 11-01-2022. Exclusions: EMI/EMC tests (Cl.19.11.4.1 to 19.11.4.7)"
+    },
+    {
+      "S.No.": "18",
+      "Lab Name": "Ace Test Labs & Metrology Pvt. Ltd., Sonipat",
+      "Osl Code": "9162826",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "31500 \n-",
+      "Validity Date": "14 Nov, 2027",
+      "Remark": "-\nExclusion: 19.11.4.1 (Electrostatic discharges) 19.11.4.2 (Radiated fields) 19.11.4.3 (Fast transient bursts) 19.11.4.4 (Surge immunity test) 19.11.4.5 (Immunity to conducted discharges) 19.11.4.6 (Class 3 Voltage dips and interruptions) 19.11.4.7 (Harmonics)"
+    },
+    {
+      "S.No.": "19",
+      "Lab Name": "Matrix Test Labs",
+      "Osl Code": "8138626",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "31 Dec, 2029",
+      "Remark": "-\nIncluded w.e.f. 04-01-2023. Excluding: Cl.19.11.4.1 (Electrostatic discharges), Cl.19.11.4.2 (Radiated fields), Cl.19.11.4.3 (Fast transient bursts), Cl.19.11.4.4 (Surge immunity test), Cl.22.16 (cord reel test setup), Cl.22.46 (software) (10% discount for BIS)"
+    },
+    {
+      "S.No.": "20",
+      "Lab Name": "Stellar Test House, Noida",
+      "Osl Code": "8171606",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "Up to 200 Leters",
+      "Testing Charges (Excl. Of Taxes)": "15000.00 \n-",
+      "Validity Date": "26 Sep, 2028",
+      "Remark": "-\nIncluded w.e.f. 28.03.2024 Exclusion: 19.11.4.2 (Radiated fields) 19.11.4.3 (Fast transient bursts) 19.11.4.4 (Surge immunity test) 19.11.4.5 (Immunity to conducted discharges) 19.11.4.6 (Class 3 Voltage dips and interruptions) 19.11.4.7 (Harmonics)"
+    },
+    {
+      "S.No.": "21",
+      "Lab Name": "ATCC TEST LABS LLP",
+      "Osl Code": "8172626",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "21500 \n-",
+      "Validity Date": "15 Jun, 2029",
+      "Remark": "-\nExclusion - EMI/EMC (Cl.19.11.4.1 to 19.11.4.7), Test of synthetic rubber and ceramic material (Cl.22.32), Cl.22.46 Software Cl.24 Components."
+    },
+    {
+      "S.No.": "22",
+      "Lab Name": "Delhi Test House (A Unit of Delhii Test House Global LLP) (50) Kundli, Sonipat",
+      "Osl Code": "9127026",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "16875 \n-",
+      "Validity Date": "23 Jun, 2028",
+      "Remark": "-\nExclusion: 19.11.4.1 (Electrostatic discharges) 19.11.4.2 (Radiated fields) 19.11.4.3 (Fast transient bursts) 19.11.4.4 (Surge immunity test) 19.11.4.5 (Immunity to conducted discharges) 19.11.4.6 (Class 3 Voltage dips and interruptions)"
+    },
+    {
+      "S.No.": "23",
+      "Lab Name": "BLUESKY LAB LLP, GHAZIABAD",
+      "Osl Code": "8170306",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "16500 \n-",
+      "Validity Date": "22 May, 2028",
+      "Remark": "-\nRestricted to rated pressure upto 1.2MPA. EMI/EMC tests (electrostatic Discharges, Radiant Fields, Fast Transient burst, Voltage surges, Injected current, voltage dips & Interruptions, Mains signals) [cl.19.11.4.1 to Cl.19.11.4.7], Radiation, Toxicity & Similar Hazards (cl.32), Components (C1.24) Note: Copper purity declared by manufacturer."
+    },
+    {
+      "S.No.": "24",
+      "Lab Name": "MSME Testing Centre, New Delhi",
+      "Osl Code": "8101204",
+      "Indian Standard No.": "IS 302 : Part 2 : Sec 21 (2018)",
+      "Product": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "12000 \n-",
+      "Validity Date": "31 Dec, 2026",
+      "Remark": "-\nExcl: Cl. 19.11.4.1 to Cl. 19.11.4.7 (EMI/EMC tests)"
+    }
+  ],
+  "qco_gazettes": [
+    {
+      "local_path": "storage\\data\\IS_302_Part_2_Sec_21\\documents\\Electrical-Appliances-for-domestic-water-heating-Quality-Control-Order-2023.pdf",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2024/03/Electrical-Appliances-for-domestic-water-heating-Quality-Control-Order-2023.pdf",
+      "sha256": "336b9b9153f0587612b27bcb2226f016777dafc470c50615f153cce2e31cc80c",
+      "retrieved_at": "2026-09-24T21:03:03.847337+00:00",
+      "status": "downloaded",
+      "document_type": "qco",
+      "document_id": "DOC_302_QCO_0"
+    }
+  ],
+  "amendments": [
+    {
+      "local_path": "storage\\data\\IS_302_Part_2_Sec_21\\documents\\amendment_0.pdf",
+      "source_url": "https://bmqsdqljvwgm.compat.objectstorage.ap-mumbai-1.oraclecloud.com/BisProd/bisProd/oldStandards/S16/S16V01/302_2_21A1.pdf",
+      "sha256": "b9c39309b9d8cd203bfb9ec60455952088fd69410bdcbaa070578953b85b686f",
+      "retrieved_at": "2026-09-24T21:11:20.329275+00:00",
+      "status": "downloaded",
+      "document_type": "amendment",
+      "document_id": "DOC_302_AM_0"
+    }
+  ],
+  "tested_by_relations": [
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_None",
+      "target_type": "laboratory",
+      "lab_name": "BIS, Central Laboratory (CL)",
+      "lab_id": "None"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8139626",
+      "target_type": "laboratory",
+      "lab_name": "Conformity Testing Labs Pvt. Ltd. Unit 2 (A33)",
+      "lab_id": "8139626"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8189526",
+      "target_type": "laboratory",
+      "lab_name": "Global Scientific Solution (P) Ltd.",
+      "lab_id": "8189526"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8178226",
+      "target_type": "laboratory",
+      "lab_name": "Vardhamana Testing Laboratory OPC Pvt. Ltd.",
+      "lab_id": "8178226"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8127706",
+      "target_type": "laboratory",
+      "lab_name": "BUREAU VERITAS CONSUMER PRODUCTS SERVICES INDIA PRIVATE LIMITED, NOIDA",
+      "lab_id": "8127706"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_6126126",
+      "target_type": "laboratory",
+      "lab_name": "TUV Rheinland (India) Pvt. Ltd (6126126), Bengaluru",
+      "lab_id": "6126126"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8179926",
+      "target_type": "laboratory",
+      "lab_name": "Aaditech Test and Calibration Lab LLP",
+      "lab_id": "8179926"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8166106",
+      "target_type": "laboratory",
+      "lab_name": "Cotecna Inspection India Private Limited, Gurugram",
+      "lab_id": "8166106"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8180426",
+      "target_type": "laboratory",
+      "lab_name": "ALAIPURIA TEST HOUSE PRIVATE LIMITED, GHAZIABAD",
+      "lab_id": "8180426"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9137826",
+      "target_type": "laboratory",
+      "lab_name": "Bharat Test House Pvt Ltd 781 Sonipat Haryana",
+      "lab_id": "9137826"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8180826",
+      "target_type": "laboratory",
+      "lab_name": "Classic Testing & Research Centre (B17), Noida",
+      "lab_id": "8180826"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9111924",
+      "target_type": "laboratory",
+      "lab_name": "THE NATIONAL SMALL INDUSTRIES CORPORATION LIMITED, TECHNICAL SERVICES CENTRE - NSIC, Rajpura",
+      "lab_id": "9111924"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8170206",
+      "target_type": "laboratory",
+      "lab_name": "POWERONIC TEST & RESEARCH CENTRE PRIVATE LIMITED, GREATER NOIDA",
+      "lab_id": "8170206"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_7107604",
+      "target_type": "laboratory",
+      "lab_name": "National Test House (WR) - NTH, Mumbai",
+      "lab_id": "7107604"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8176726",
+      "target_type": "laboratory",
+      "lab_name": "ABSOLUTE EXPERTISE TESTING LABORATORY LLP",
+      "lab_id": "8176726"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_7126926",
+      "target_type": "laboratory",
+      "lab_name": "Hi Physix Laboratory India Private Limited, Pune",
+      "lab_id": "7126926"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8165726",
+      "target_type": "laboratory",
+      "lab_name": "IEC TEST LABS LLP",
+      "lab_id": "8165726"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9162826",
+      "target_type": "laboratory",
+      "lab_name": "Ace Test Labs & Metrology Pvt. Ltd., Sonipat",
+      "lab_id": "9162826"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8138626",
+      "target_type": "laboratory",
+      "lab_name": "Matrix Test Labs",
+      "lab_id": "8138626"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8171606",
+      "target_type": "laboratory",
+      "lab_name": "Stellar Test House, Noida",
+      "lab_id": "8171606"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8172626",
+      "target_type": "laboratory",
+      "lab_name": "ATCC TEST LABS LLP",
+      "lab_id": "8172626"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9127026",
+      "target_type": "laboratory",
+      "lab_name": "Delhi Test House (A Unit of Delhii Test House Global LLP) (50) Kundli, Sonipat",
+      "lab_id": "9127026"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8170306",
+      "target_type": "laboratory",
+      "lab_name": "BLUESKY LAB LLP, GHAZIABAD",
+      "lab_id": "8170306"
+    },
+    {
+      "source_id": "IS 302 (Part 2/Sec 21):2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8101204",
+      "target_type": "laboratory",
+      "lab_name": "MSME Testing Centre, New Delhi",
+      "lab_id": "8101204"
+    }
+  ]
+}

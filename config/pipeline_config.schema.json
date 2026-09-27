@@ -1,0 +1,323 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BIS Pipeline Configuration Schema",
+  "type": "object",
+  "required": ["version", "pipeline", "is_number_management", "phases"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "pipeline": {
+      "type": "object",
+      "required": ["name", "execution_mode", "continue_on_error"],
+      "properties": {
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "execution_mode": {
+          "type": "string",
+          "enum": ["sequential", "parallel_phases"]
+        },
+        "continue_on_error": {"type": "boolean"},
+        "max_retries_per_phase": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "retry_delay_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "timeout_per_phase_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "enable_progress_logging": {"type": "boolean"},
+        "log_level": {
+          "type": "string",
+          "enum": ["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"]
+        }
+      }
+    },
+    "is_number_management": {
+      "type": "object",
+      "required": ["enabled", "storage_dir"],
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "storage_dir": {"type": "string"},
+        "initial_sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["type", "is_numbers", "description"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["config_list", "file", "range", "api"]
+              },
+              "is_numbers": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "description": {"type": "string"},
+              "file_path": {"type": "string"},
+              "range_string": {"type": "string"},
+              "api_url": {"type": "string"}
+            }
+          }
+        },
+        "discovery": {
+          "type": "object",
+          "properties": {
+            "enabled": {"type": "boolean"},
+            "sources": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["type", "path", "description"],
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "enum": ["directory_scan", "file_watch", "api_poll"]
+                  },
+                  "path": {"type": "string"},
+                  "pattern": {"type": "string"},
+                  "extract_is_numbers": {"type": "boolean"},
+                  "description": {"type": "string"}
+                }
+              }
+            },
+            "polling_interval_seconds": {
+              "type": "integer",
+              "minimum": 10
+            },
+            "max_new_per_poll": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "batch_size": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "auto_retry_failed": {"type": "boolean"},
+        "max_failed_retries": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "phases": {
+      "type": "object",
+      "required": ["collection", "processing", "validation", "indexing", "reporting"],
+      "properties": {
+        "collection": {"$ref": "#/definitions/phase_config"},
+        "processing": {"$ref": "#/definitions/phase_config"},
+        "validation": {"$ref": "#/definitions/phase_config"},
+        "indexing": {"$ref": "#/definitions/phase_config"},
+        "reporting": {"$ref": "#/definitions/phase_config"}
+      }
+    },
+    "notifications": {
+      "type": "object",
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "email": {
+          "type": "object",
+          "properties": {
+            "enabled": {"type": "boolean"},
+            "smtp_server": {"type": "string"},
+            "smtp_port": {"type": "integer", "minimum": 1, "maximum": 65535},
+            "use_tls": {"type": "boolean"},
+            "username": {"type": "string"},
+            "password": {"type": "string"},
+            "from_address": {"type": "string", "format": "email"},
+            "to_addresses": {
+              "type": "array",
+              "items": {"type": "string", "format": "email"}
+            },
+            "on_success": {"type": "boolean"},
+            "on_failure": {"type": "boolean"},
+            "on_warning": {"type": "boolean"}
+          }
+        },
+        "webhook": {
+          "type": "object",
+          "properties": {
+            "enabled": {"type": "boolean"},
+            "url": {"type": "string", "format": "uri"},
+            "headers": {
+              "type": "object",
+              "additionalProperties": {"type": "string"}
+            },
+            "on_success": {"type": "boolean"},
+            "on_failure": {"type": "boolean"},
+            "on_warning": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "advanced": {
+      "type": "object",
+      "properties": {
+        "enable_checkpointing": {"type": "boolean"},
+        "checkpoint_interval_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "resume_from_checkpoint": {"type": "boolean"},
+        "enable_resource_monitoring": {"type": "boolean"},
+        "max_memory_mb": {
+          "type": "integer",
+          "minimum": 256
+        },
+        "max_disk_usage_gb": {
+          "type": "number",
+          "minimum": 0.1
+        },
+        "temp_dir": {"type": "string"},
+        "cleanup_on_exit": {"type": "boolean"}
+      }
+    }
+  },
+  "definitions": {
+    "phase_config": {
+      "type": "object",
+      "required": ["enabled", "timeout_minutes"],
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "timeout_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "continue_on_error": {"type": "boolean"},
+        "collectors": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["enabled", "script"],
+            "properties": {
+              "enabled": {"type": "boolean"},
+              "script": {"type": "string"},
+              "args": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "description": {"type": "string"}
+            }
+          }
+        },
+        "processors": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["enabled", "script"],
+            "properties": {
+              "enabled": {"type": "boolean"},
+              "script": {"type": "string"},
+              "args": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "description": {"type": "string"}
+            }
+          }
+        },
+        "validators": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["enabled", "script"],
+            "properties": {
+              "enabled": {"type": "boolean"},
+              "script": {"type": "string"},
+              "args": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "description": {"type": "string"}
+            }
+          }
+        },
+        "indexer": {
+          "type": "object",
+          "required": ["script"],
+          "properties": {
+            "script": {"type": "string"},
+            "args": {
+              "type": "object",
+              "additionalProperties": true
+            },
+            "description": {"type": "string"}
+          }
+        },
+        "report_generator": {
+          "type": "object",
+          "required": ["script"],
+          "properties": {
+            "script": {"type": "string"},
+            "args": {
+              "type": "object",
+              "additionalProperties": true
+            },
+            "description": {"type": "string"}
+          }
+        },
+        "input_dir": {"type": "string"},
+        "output_dir": {"type": "string"},
+        "verify_downloads": {"type": "boolean"},
+        "max_concurrent_collectors": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_concurrent_processors": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "skip_if_exists": {"type": "boolean"},
+        "force_reprocess": {"type": "boolean"},
+        "validation_threshold": {
+          "type": "object",
+          "properties": {
+            "min_pass_rate": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "critical_failure_threshold": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        },
+        "generate_report": {"type": "boolean"},
+        "report_dir": {"type": "string"},
+        "test_queries": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "min_results_per_query": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "verify_index": {"type": "boolean"},
+        "include_metrics": {"type": "boolean"},
+        "include_is_number_stats": {"type": "boolean"},
+        "include_phase_timings": {"type": "boolean"},
+        "formats": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["json", "html", "markdown", "txt", "csv"]
+          }
+        },
+        "archive_logs": {"type": "boolean"},
+        "cleanup_temp_files": {"type": "boolean"}
+      }
+    }
+  }
+}

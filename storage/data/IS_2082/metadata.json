@@ -1,0 +1,716 @@
+{
+  "is_number": "IS 2082:2018",
+  "doc_no": "2082",
+  "part": null,
+  "section": null,
+  "year": "2018",
+  "title": "Stationary Storage Type Electric Water Heaters - Specification",
+  "class": "CORE",
+  "fuel_type": "electric",
+  "standard_enc_id": "eyJpdiI6Ijhlek1VZTlOamxjdHlDNmNWcE1ZUHc9PSIsInZhbHVlIjoiRURQUks5NlcxbGs1Ny9NbC9QS0ZBUT09IiwibWFjIjoiYTIxZmZmNmUyMmFiZDE2ZjNlZjcwNTY1YjkxNzI4ZjQ0ZmU0NGJmZjNlZjgzY2U3YzMxMTA5NzY5OWJjNTY0NiIsInRhZyI6IiJ9",
+  "standard_id": 18707,
+  "standard_number_api": "IS 2082:2018",
+  "standard_name_api": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+  "published_on": "2018-04-30",
+  "valid_upto": "2031-01-16",
+  "withdraw_status": 0,
+  "department_id": 65,
+  "committee_id": 265,
+  "full_standard_access": "restricted",
+  "collection_status": {
+    "metadata": "available",
+    "product_manual": "pending",
+    "sit": "pending",
+    "amendments": "pending",
+    "qco_gazette": "pending",
+    "laboratories": "available"
+  },
+  "laboratories": [
+    {
+      "S.No.": "1",
+      "Lab Name": "Samridhi Test House Pvt. Ltd.",
+      "Osl Code": "8184706",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "All Grade / Type / Size / Designation",
+      "Testing Charges (Excl. Of Taxes)": "9800 \n-",
+      "Validity Date": "-",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "2",
+      "Lab Name": "Shri Krishna Test House",
+      "Osl Code": "8122336",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "05 Oct, 2028",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "3",
+      "Lab Name": "CENTRAL ELECTRICAL TESTING LABORATORY (CETL), KAKKALUR",
+      "Osl Code": "6104524",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "14900 \n-",
+      "Validity Date": "31 Dec, 2026",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "4",
+      "Lab Name": "Electrical Research and Development Association, gujurat",
+      "Osl Code": "7101125",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "33360 \n-",
+      "Validity Date": "30 Nov, 2028",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "5",
+      "Lab Name": "Vimta labs Limited, Hyderabad",
+      "Osl Code": "6102906",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "35000 \n-",
+      "Validity Date": "31 Mar, 2028",
+      "Remark": "-\n1 19.11.4.1 (Electrostatic discharges) Electrostatic discharge Test facility not available. 2 19.11.4.2 (Radiated fields) Radiated fields Test facility not available. 3 19.11.4.3 (Fast transient bursts) Fast transient bursts Test facility not available. 4 19.11.4.4 (Surge Immunity Test) Surge immunity test Test facility not available. 5 19.11.4.5 (Immunity to conductivity Discharge) immunity to conductive discharge Test facility not available. 6 19.11.4.6 (Class 3 voltage dips and interruptions) Class 3 voltage dips and interruptions Test facility not available. 7 19.11.4.7 (Hormonics) Harmonics Test facility not available."
+    },
+    {
+      "S.No.": "6",
+      "Lab Name": "URS PRODUCTS AND TESTING PVT. LTD. (A29), NOIDA",
+      "Osl Code": "8168906",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "55000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nIncluded w.e.f 09.02.2026"
+    },
+    {
+      "S.No.": "7",
+      "Lab Name": "Akshat Test Lab & Calibration Services, Ghaziabad",
+      "Osl Code": "8186526",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Testing Charges (Excl. Of Taxes)": "9900 \n-",
+      "Validity Date": "-",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "8",
+      "Lab Name": "EMC Testing and Compliance LLP, Gurugram",
+      "Osl Code": "8141526",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "20000 \n-",
+      "Validity Date": "19 Jul, 2027",
+      "Remark": "-\n\"1 Cl.32 of IS 302-1:2008 Radiation ,Toxicity and similar Hazardous Facility Not available 2 19.11.4.1 (Electrostatic discharges) Electrostatic discharges Facility Not available 3 19.11.4.2 (Radiated fields) Radiated fiedls Facility Not available 4 19.11.4.3 (Fast transient bursts) Fast transient Bursts Facility Not available 5 19.11.4.4 (Surge Immunity Test) Surge Immunity Test Facility Not available 6 19.11.4.5 (Immunity to conductivity Discharge) Immunity to conductivity discharge Facility Not available 7 19.11.4.6 (Class 3 voltage dips and interruptions) Class 3 voltage dips and interruptions Facility Not available 8 19.11.4.7 (Hormonics) Hormonics Facility Not available\""
+    },
+    {
+      "S.No.": "9",
+      "Lab Name": "Amit Test and Calibration Centre (8172006)",
+      "Osl Code": "8172006",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "20000 \n-",
+      "Validity Date": "16 Apr, 2029",
+      "Remark": "-\n\"1 19.11.4.1 (Electrostatic discharges) Electrostatic discharge Electrostatic discharge is appeared in the portal test list but the same is not specified and related to the specification IS 2082 2 19.11.4.2 (Radiated fields) Radiated Fields Radiated Fields is appeared in the portal test list but the same is not specified and related to the specification IS 2082 3 19.11.4.3 (Fast transient bursts) Fast Transient bursts Fast Transient bursts is appeared in the portal test list but the same is not specified and related to the specification IS 2082 4 19.11.4.4 (Surge Immunity Test) Surge Immunity Test Surge Immunity Test is appeared in the portal test list but the same is not specified and related to the specification IS 2082 5 19.11.4.5 (Immunity to conductivity Discharge) Immunity to conductivity Discharge Immunity to conductivity Discharge is appeared in the portal test list but the same is not specified and related to the specification IS 2082 6 19.11.4.6 (Class 3 voltage dips and interruptions) Class 3 voltage dips and interruptions Class 3 voltage dips and interruptions is appeared in the portal test list but the same is not specified and related to the specification IS 2082 7 19.11.4.7 (Hormonics) Harmonics Harmonics is appeared in the portal test list but the same is not specified and related to the specification IS 2082 \""
+    },
+    {
+      "S.No.": "10",
+      "Lab Name": "Dashmesh Test Lab Private Limited",
+      "Osl Code": "8186926",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "ALL",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "22 Jul, 2028",
+      "Remark": "-\nIncluded w.e.f 03.11.2025 Exclusion: Cl 19.11.4.1-Cl 19.11.4.7 (EMI/EMC),(Cl.24ofIS302-2­21:2011) (Component), Cl.32 of IS 302-1:2008"
+    },
+    {
+      "S.No.": "11",
+      "Lab Name": "INTERNATIONAL TESTING AND COMPLIANCE (OPC) PRIVATE LIMITED",
+      "Osl Code": "8188026",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "25000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nExclusion: Cl.19.11.4.1 to Cl.19.11.4.7 (EMI/EMC), Cl.15(IPX9), Cl.24(Components)"
+    },
+    {
+      "S.No.": "12",
+      "Lab Name": "Global Scientific Solution (P) Ltd.",
+      "Osl Code": "8189526",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "10000 \n-",
+      "Validity Date": "31 Oct, 2028",
+      "Remark": "-\nCl. 19.11.4.1 to Cl. 19.11.4.7 (EMI/EMC), Cl. 24, Cl. 32.2, Cl. 15.1.1(IPX7-8), Cl 12 as per IS 302-2-21"
+    },
+    {
+      "S.No.": "13",
+      "Lab Name": "BUREAU VERITAS CONSUMER PRODUCTS SERVICES INDIA PRIVATE LIMITED, NOIDA",
+      "Osl Code": "8127706",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "33000 \n-",
+      "Validity Date": "31 Dec, 2029",
+      "Remark": "-\nIncluded w.e.f.20.06.2025 Exclusion (EMI/EMC)Cl 19.11.4.1 TO Cl 19.11.4.7"
+    },
+    {
+      "S.No.": "14",
+      "Lab Name": "Vardhamana Testing Laboratory OPC Pvt. Ltd.",
+      "Osl Code": "8178226",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Stationary Storage type Electric Water Heaters",
+      "Testing Charges (Excl. Of Taxes)": "25000 \n-",
+      "Validity Date": "29 Apr, 2027",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "15",
+      "Lab Name": "Alpha Test House Private Limited, Delhi",
+      "Osl Code": "8131026",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nREVISED VERSION Included w.e.f. 26.04.2019"
+    },
+    {
+      "S.No.": "16",
+      "Lab Name": "ACCURATE TEST SOLUTIONS LLP (F21), NOIDA",
+      "Osl Code": "8141226",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "25000 \n-",
+      "Validity Date": "04 Jul, 2027",
+      "Remark": "-\nIncluded.w.e.f.22.01.2025 Exclusion Cl. 24 (component) Cl 19.11.4.1 to Cl 19.11.4.7 (component)"
+    },
+    {
+      "S.No.": "17",
+      "Lab Name": "Cotecna Inspection India Private Limited, Gurugram",
+      "Osl Code": "8166106",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "35000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "18",
+      "Lab Name": "INDIAN TESTING LABORATORY PRIVATE LIMITED, GREATER NOIDA",
+      "Osl Code": "8171306",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "18000 \n-",
+      "Validity Date": "15 Aug, 2028",
+      "Remark": "-\nIncluded w.e.f 07.01.2025"
+    },
+    {
+      "S.No.": "19",
+      "Lab Name": "Intertek India Private Limited, New Delhi (E-20)",
+      "Osl Code": "8122426",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "35000 \n-",
+      "Validity Date": "27 Oct, 2028",
+      "Remark": "-\nIncluded.w.e.f.15.01.2025 Exclusion Cl.32 of IS 302-1:2008, Radiation, Toxicity and similar hazards Cl. 22.32 (Oxygen bomb test), Cl.22.16 (Automatic cord reel), Cl. 22.46 (Software evaluation) Cl 19.11.4.1 (Electrostatic discharges), 19.11.4.2 (Radiated fields),19.11.4.3 (Fast transient bursts), 19.11.4.4 (Surge immunity test), 19.11.4.5 (Immunity to conducted discharges), 19.11.4.6 (Class 3 Voltage dips and interruptions), 19.11.4.7 (Harmonics)"
+    },
+    {
+      "S.No.": "20",
+      "Lab Name": "ALAIPURIA TEST HOUSE PRIVATE LIMITED, GHAZIABAD",
+      "Osl Code": "8180426",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "22000 \n-",
+      "Validity Date": "03 Oct, 2027",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "21",
+      "Lab Name": "Bharat Test House Pvt Ltd 781 Sonipat Haryana",
+      "Osl Code": "9137826",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Stationary storage type electric water heaters",
+      "Testing Charges (Excl. Of Taxes)": "12500 \n-",
+      "Validity Date": "31 Dec, 2029",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "22",
+      "Lab Name": "Classic Testing & Research Centre (B17), Noida",
+      "Osl Code": "8180826",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "25000 \n20% concession in testing charges to BIS",
+      "Validity Date": "15 Oct, 2027",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "23",
+      "Lab Name": "Ace Test Labs & Metrology Pvt. Ltd., Sonipat",
+      "Osl Code": "9162826",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "14 Nov, 2027",
+      "Remark": "-\nIncluded w.e.f 30.01.2025"
+    },
+    {
+      "S.No.": "24",
+      "Lab Name": "THE NATIONAL SMALL INDUSTRIES CORPORATION LIMITED, TECHNICAL SERVICES CENTRE - NSIC, Rajpura",
+      "Osl Code": "9111924",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "31 Dec, 2026",
+      "Remark": "-\nExcluding Cl.19.11.4.1 to Cl.19.11.4.7 (EMI/EMC Test) Cl.32 of IS 302-2-15 (Radiation, Toxicity and Similar Hazards)"
+    },
+    {
+      "S.No.": "25",
+      "Lab Name": "POWERONIC TEST & RESEARCH CENTRE PRIVATE LIMITED, GREATER NOIDA",
+      "Osl Code": "8170206",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Electric Iron",
+      "Testing Charges (Excl. Of Taxes)": "10000 \n-",
+      "Validity Date": "11 Apr, 2028",
+      "Remark": "-\nExclusion: EMI/EMC (Cl.19.11.4.2) , Component testing (Cl.24.) Scope Restricted \" only for above 100 litre\""
+    },
+    {
+      "S.No.": "26",
+      "Lab Name": "Aaditech Test and Calibration Lab LLP",
+      "Osl Code": "8179926",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "15000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "27",
+      "Lab Name": "ABSOLUTE EXPERTISE TESTING LABORATORY LLP",
+      "Osl Code": "8176726",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "30000 \n-",
+      "Validity Date": "11 Mar, 2027",
+      "Remark": "-\nExclusion: Cl. 24 (Components)"
+    },
+    {
+      "S.No.": "28",
+      "Lab Name": "IEC TEST LABS LLP",
+      "Osl Code": "8165726",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "30000 \nRs.30000/-(20% discount to BIS).",
+      "Validity Date": "07 Sep, 2029",
+      "Remark": "-\nIncluded w.e.f. 11-01-2022."
+    },
+    {
+      "S.No.": "29",
+      "Lab Name": "Stellar Test House, Noida",
+      "Osl Code": "8171606",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "18000 \n-",
+      "Validity Date": "26 Sep, 2028",
+      "Remark": "-\nIncluded w.e.f. 19.12.2023"
+    },
+    {
+      "S.No.": "30",
+      "Lab Name": "ATCC TEST LABS LLP",
+      "Osl Code": "8172626",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "29000 \n-",
+      "Validity Date": "15 Jun, 2029",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "31",
+      "Lab Name": "Delhi Test House (A Unit of Delhii Test House Global LLP) (50) Kundli, Sonipat",
+      "Osl Code": "9127026",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "30038 \n-",
+      "Validity Date": "23 Jun, 2028",
+      "Remark": "-\nRestricted to Stainless steel tank only"
+    },
+    {
+      "S.No.": "32",
+      "Lab Name": "Hi Physix Laboratory India Private Limited, Pune",
+      "Osl Code": "7126926",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "upto 3kW & above 3kW to 5kW",
+      "Testing Charges (Excl. Of Taxes)": "35000 \n-",
+      "Validity Date": "20 Jun, 2028",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "33",
+      "Lab Name": "BLUESKY LAB LLP, GHAZIABAD",
+      "Osl Code": "8170306",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "20000 \n-",
+      "Validity Date": "22 May, 2028",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "34",
+      "Lab Name": "MSME Testing Centre, New Delhi",
+      "Osl Code": "8101204",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "0",
+      "Testing Charges (Excl. Of Taxes)": "12000 \n-",
+      "Validity Date": "31 Dec, 2026",
+      "Remark": "-\nExcl: Cl.19.11.4.1 to Cl.19.11.4.7 (EMI/EMC Test)"
+    },
+    {
+      "S.No.": "35",
+      "Lab Name": "BIS, Central Laboratory (CL)",
+      "Osl Code": "None",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "- \n-",
+      "Validity Date": "-",
+      "Remark": "-\nComplete except electronic circuit type appliances(IS 302-2-21, Cl.19.11 of IS 302-1)"
+    },
+    {
+      "S.No.": "36",
+      "Lab Name": "BIS, Northern Regional Laboratory (NRL)",
+      "Osl Code": "None",
+      "Indian Standard No.": "IS 2082 (2018)",
+      "Product": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "- \n-",
+      "Validity Date": "-",
+      "Remark": "-\nExcluding Cl.24.102.1 and Cl.24.102.2 Electronic circuit and Software evaluation Cl. 19.11 and Cl. 19.12 abnormal test (for Electronic circuit)"
+    }
+  ],
+  "tested_by_relations": [
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8184706",
+      "target_type": "laboratory",
+      "lab_name": "Samridhi Test House Pvt. Ltd.",
+      "lab_id": "8184706"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8122336",
+      "target_type": "laboratory",
+      "lab_name": "Shri Krishna Test House",
+      "lab_id": "8122336"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_6104524",
+      "target_type": "laboratory",
+      "lab_name": "CENTRAL ELECTRICAL TESTING LABORATORY (CETL), KAKKALUR",
+      "lab_id": "6104524"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_7101125",
+      "target_type": "laboratory",
+      "lab_name": "Electrical Research and Development Association, gujurat",
+      "lab_id": "7101125"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_6102906",
+      "target_type": "laboratory",
+      "lab_name": "Vimta labs Limited, Hyderabad",
+      "lab_id": "6102906"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8168906",
+      "target_type": "laboratory",
+      "lab_name": "URS PRODUCTS AND TESTING PVT. LTD. (A29), NOIDA",
+      "lab_id": "8168906"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8186526",
+      "target_type": "laboratory",
+      "lab_name": "Akshat Test Lab & Calibration Services, Ghaziabad",
+      "lab_id": "8186526"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8141526",
+      "target_type": "laboratory",
+      "lab_name": "EMC Testing and Compliance LLP, Gurugram",
+      "lab_id": "8141526"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8172006",
+      "target_type": "laboratory",
+      "lab_name": "Amit Test and Calibration Centre (8172006)",
+      "lab_id": "8172006"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8186926",
+      "target_type": "laboratory",
+      "lab_name": "Dashmesh Test Lab Private Limited",
+      "lab_id": "8186926"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8188026",
+      "target_type": "laboratory",
+      "lab_name": "INTERNATIONAL TESTING AND COMPLIANCE (OPC) PRIVATE LIMITED",
+      "lab_id": "8188026"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8189526",
+      "target_type": "laboratory",
+      "lab_name": "Global Scientific Solution (P) Ltd.",
+      "lab_id": "8189526"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8127706",
+      "target_type": "laboratory",
+      "lab_name": "BUREAU VERITAS CONSUMER PRODUCTS SERVICES INDIA PRIVATE LIMITED, NOIDA",
+      "lab_id": "8127706"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8178226",
+      "target_type": "laboratory",
+      "lab_name": "Vardhamana Testing Laboratory OPC Pvt. Ltd.",
+      "lab_id": "8178226"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8131026",
+      "target_type": "laboratory",
+      "lab_name": "Alpha Test House Private Limited, Delhi",
+      "lab_id": "8131026"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8141226",
+      "target_type": "laboratory",
+      "lab_name": "ACCURATE TEST SOLUTIONS LLP (F21), NOIDA",
+      "lab_id": "8141226"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8166106",
+      "target_type": "laboratory",
+      "lab_name": "Cotecna Inspection India Private Limited, Gurugram",
+      "lab_id": "8166106"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8171306",
+      "target_type": "laboratory",
+      "lab_name": "INDIAN TESTING LABORATORY PRIVATE LIMITED, GREATER NOIDA",
+      "lab_id": "8171306"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8122426",
+      "target_type": "laboratory",
+      "lab_name": "Intertek India Private Limited, New Delhi (E-20)",
+      "lab_id": "8122426"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8180426",
+      "target_type": "laboratory",
+      "lab_name": "ALAIPURIA TEST HOUSE PRIVATE LIMITED, GHAZIABAD",
+      "lab_id": "8180426"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9137826",
+      "target_type": "laboratory",
+      "lab_name": "Bharat Test House Pvt Ltd 781 Sonipat Haryana",
+      "lab_id": "9137826"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8180826",
+      "target_type": "laboratory",
+      "lab_name": "Classic Testing & Research Centre (B17), Noida",
+      "lab_id": "8180826"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9162826",
+      "target_type": "laboratory",
+      "lab_name": "Ace Test Labs & Metrology Pvt. Ltd., Sonipat",
+      "lab_id": "9162826"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9111924",
+      "target_type": "laboratory",
+      "lab_name": "THE NATIONAL SMALL INDUSTRIES CORPORATION LIMITED, TECHNICAL SERVICES CENTRE - NSIC, Rajpura",
+      "lab_id": "9111924"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8170206",
+      "target_type": "laboratory",
+      "lab_name": "POWERONIC TEST & RESEARCH CENTRE PRIVATE LIMITED, GREATER NOIDA",
+      "lab_id": "8170206"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8179926",
+      "target_type": "laboratory",
+      "lab_name": "Aaditech Test and Calibration Lab LLP",
+      "lab_id": "8179926"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8176726",
+      "target_type": "laboratory",
+      "lab_name": "ABSOLUTE EXPERTISE TESTING LABORATORY LLP",
+      "lab_id": "8176726"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8165726",
+      "target_type": "laboratory",
+      "lab_name": "IEC TEST LABS LLP",
+      "lab_id": "8165726"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8171606",
+      "target_type": "laboratory",
+      "lab_name": "Stellar Test House, Noida",
+      "lab_id": "8171606"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8172626",
+      "target_type": "laboratory",
+      "lab_name": "ATCC TEST LABS LLP",
+      "lab_id": "8172626"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9127026",
+      "target_type": "laboratory",
+      "lab_name": "Delhi Test House (A Unit of Delhii Test House Global LLP) (50) Kundli, Sonipat",
+      "lab_id": "9127026"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_7126926",
+      "target_type": "laboratory",
+      "lab_name": "Hi Physix Laboratory India Private Limited, Pune",
+      "lab_id": "7126926"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8170306",
+      "target_type": "laboratory",
+      "lab_name": "BLUESKY LAB LLP, GHAZIABAD",
+      "lab_id": "8170306"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8101204",
+      "target_type": "laboratory",
+      "lab_name": "MSME Testing Centre, New Delhi",
+      "lab_id": "8101204"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_None",
+      "target_type": "laboratory",
+      "lab_name": "BIS, Central Laboratory (CL)",
+      "lab_id": "None"
+    },
+    {
+      "source_id": "IS 2082:2018",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_None",
+      "target_type": "laboratory",
+      "lab_name": "BIS, Northern Regional Laboratory (NRL)",
+      "lab_id": "None"
+    }
+  ]
+}

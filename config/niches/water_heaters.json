@@ -1,0 +1,66 @@
+{
+  "niche": "Electrical Appliances for Domestic Water Heating",
+  "is_numbers": [
+    {
+      "is_number": "IS 2082:2018",
+      "doc_no": "2082",
+      "part": null,
+      "section": null,
+      "year": "2018",
+      "title": "Stationary Storage Type Electric Water Heaters - Specification",
+      "class": "CORE",
+      "fuel_type": "electric"
+    },
+    {
+      "is_number": "IS 368:2014",
+      "doc_no": "368",
+      "part": null,
+      "section": null,
+      "year": "2014",
+      "title": "Electric Immersion Water Heaters",
+      "class": "CORE",
+      "fuel_type": "electric"
+    },
+    {
+      "is_number": "IS 17150:2019",
+      "doc_no": "17150",
+      "part": null,
+      "section": null,
+      "year": "2019",
+      "title": "Mini Domestic Water Heater for use with Piped Natural Gas (PNG)",
+      "class": "CORE",
+      "fuel_type": "gas"
+    },
+    {
+      "is_number": "IS 302 (Part 2/Sec 21):2018",
+      "doc_no": "302",
+      "part": "2",
+      "section": "21",
+      "year": "2018",
+      "title": "Particular requirements - stationary storage type electric water heaters (safety base standard)",
+      "class": "SUPPORTING"
+    },
+    {
+      "is_number": "IS 302 (Part 2/Sec 35):2017",
+      "doc_no": "302",
+      "part": "2",
+      "section": "35",
+      "year": "2017",
+      "title": "Particular requirements - electric instantaneous water heaters",
+      "class": "SUPPORTING"
+    }
+  ],
+  "qco_reference": {
+    "title": "Electrical Appliances for domestic water heating (Quality Control) Order, 2023",
+    "gazette_id": "S.O. 1253(E)",
+    "published": "2024-03-05"
+  },
+  "related_standards": [
+    {
+      "is_number": "IS 302 (Part 1)",
+      "title": "General requirements for household electrical appliances",
+      "class": "RELATED",
+      "note": "Parent general-safety standard. Link as RELATED_TO, not a core ingestion target."
+    }
+  ]
+}

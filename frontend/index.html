@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIS RAG Chatbot</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .session-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 0 20px;
+        }
+
+        .session-info {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #495057;
+        }
+
+        .btn-session {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .btn-session:hover {
+            background: #5a6268;
+        }
+
+        .btn-new-session {
+            background: #28a745;
+        }
+
+        .btn-new-session:hover {
+            background: #218838;
+        }
+
+        .chat-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .message {
+            max-width: 80%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            word-wrap: break-word;
+        }
+
+        .user-message {
+            background-color: #007bff;
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 5px;
+        }
+
+        .bot-message {
+            background-color: #f8f9fa;
+            color: #333;
+            align-self: flex-start;
+            border-bottom-left-radius: 5px;
+            border: 1px solid #e9ecef;
+        }
+
+        .message-time {
+            font-size: 0.75rem;
+            opacity: 0.7;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .citations {
+            font-size: 0.85rem;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+        }
+
+        .citation-item {
+            background-color: #f1f3f5;
+            padding: 8px 12px;
+            border-radius: 12px;
+            margin: 5px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+        }
+
+        .chat-form {
+            display: flex;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        #user-input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e9ecef;
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        #user-input:focus {
+            border-color: #007bff;
+        }
+
+        #send-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0 25px;
+            margin-left: 10px;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #send-button:hover {
+            background-color: #0056b3;
+        }
+
+        #send-button:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #6c757d;
+            font-style: italic;
+        }
+
+        .example-queries {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+        }
+
+        .example-queries h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+
+        .example-query {
+            display: inline-block;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 15px;
+            padding: 5px 12px;
+            margin: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+
+        .example-query:hover {
+            background-color: #007bff;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .status-indicator {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            z-index: 1000;
+        }
+
+        .status-online {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status-offline {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .session-controls {
+                flex-direction: column;
+                gap: 10px;
+                align-items: stretch;
+            }
+
+            .session-info {
+                text-align: center;
+            }
+
+            .chat-messages {
+                padding: 15px;
+            }
+
+            .message {
+                max-width: 85%;
+            }
+
+            .chat-form {
+                flex-wrap: wrap;
+            }
+
+            #send-button {
+                margin: 10px 0 0 0;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="status-indicator" id="status-indicator">
+        Checking connection...
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>BIS RAG Chatbot</h1>
+            <p>Ask questions about Bureau of Indian Standards documents</p>
+        </div>
+
+        <div class="session-controls">
+            <div class="session-info" id="session-info">
+                Session: Initializing...
+            </div>
+            <div>
+                <button class="btn-session btn-new-session" id="new-session-btn">
+                    New Session
+                </button>
+                <button class="btn-session" id="clear-history-btn">
+                    Clear History
+                </button>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    Hello! I'm your BIS Standards assistant. I can help you find information from Bureau of Indian Standards documents. Ask me anything about water heaters, electrical appliances, or other BIS standards!
+                    <span class="message-time">Just now</span>
+                </div>
+            </div>
+
+            <div class="chat-form">
+                <input type="text" id="user-input" placeholder="Ask a question about BIS standards..." autocomplete="off">
+                <button id="send-button" type="button">Send</button>
+            </div>
+        </div>
+
+        <div class="example-queries">
+            <h3>Example Questions:</h3>
+            <span class="example-query" onclick="setQuery(this)">What are the safety requirements for water heaters according to IS 2082?</span>
+            <span class="example-query" onclick="setQuery(this)">What is the mixing factor requirement in IS 2082?</span>
+            <span class="example-query" onclick="setQuery(this)">Tell me about the routine test schedule for water heaters.</span>
+            <span class="example-query" onclick="setQuery(this)">What standards are referenced in IS 2082?</span>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const API_BASE_URL = 'http://localhost:8000'; // Change this to your backend URL
+        const USER_INPUT = document.getElementById('user-input');
+        const SEND_BUTTON = document.getElementById('send-button');
+        const CHAT_MESSAGES = document.getElementById('chat-messages');
+        const STATUS_INDICATOR = document.getElementById('status-indicator');
+        const SESSION_INFO = document.getElementById('session-info');
+        const NEW_SESSION_BTN = document.getElementById('new-session-btn');
+        const CLEAR_HISTORY_BTN = document.getElementById('clear-history-btn');
+
+        // State
+        let isLoading = false;
+        let currentSessionId = null;
+        let loadingTimer = null;
+        let loadingStartTime = null;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeSession();
+            checkConnection();
+            setupEventListeners();
+
+            // Focus on input
+            USER_INPUT.focus();
+        });
+
+        function setupEventListeners() {
+            // Send button click
+            SEND_BUTTON.addEventListener('click', sendMessage);
+
+            // Enter key in input
+            USER_INPUT.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+            // New session button
+            NEW_SESSION_BTN.addEventListener('click', createNewSession);
+
+            // Clear history button
+            CLEAR_HISTORY_BTN.addEventListener('click', clearChatHistory);
+
+            // Citation link clicks
+            document.addEventListener('click', function(e) {
+                if (e.target.classList.contains('citation-link')) {
+                    e.preventDefault();
+                    const isNumber = e.target.getAttribute('data-is-number');
+                    const docType = e.target.getAttribute('data-doc-type');
+                    showDocumentPreview(isNumber, docType);
+                }
+            });
+        }
+
+        async function initializeSession() {
+            // Try to get existing session from localStorage
+            let sessionId = localStorage.getItem('bis_rag_session_id');
+
+            if (!sessionId) {
+                // Create new session via API
+                try {
+                    const response = await fetch(`${API_BASE_URL}/sessions`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        }
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`Failed to create session: ${response.status}`);
+                    }
+
+                    const data = await response.json();
+                    sessionId = data.session_id;
+                    localStorage.setItem('bis_rag_session_id', sessionId);
+                } catch (error) {
+                    console.error('Error creating session:', error);
+                    // Fallback to generating a random ID
+                    sessionId = Math.random().toString(36).substring(2, 15) +
+                             Math.random().toString(36).substring(2, 15);
+                    localStorage.setItem('bis_rag_session_id', sessionId);
+                }
+            }
+
+            currentSessionId = sessionId;
+            updateSessionInfo('initializing');
+
+            // Load chat history for this session
+            await loadChatHistory();
+            updateSessionInfo('ready');
+        }
+
+        function updateSessionInfo(status = 'ready') {
+            if (currentSessionId) {
+                const shortId = currentSessionId.substring(0, 8) + '...';
+                SESSION_INFO.textContent = `Session: ${shortId} (${status})`;
+            } else {
+                SESSION_INFO.textContent = 'Session: Not initialized';
+            }
+        }
+
+        async function createNewSession() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/sessions`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Failed to create session: ${response.status}`);
+                }
+
+                const data = await response.json();
+                currentSessionId = data.session_id;
+                localStorage.setItem('bis_rag_session_id', currentSessionId);
+
+                updateSessionInfo();
+
+                // Clear chat display and show welcome message
+                CHAT_MESSAGES.innerHTML = '';
+                addBotMessage(
+                    "Hello! I'm your BIS Standards assistant. I can help you find information from Bureau of Indian Standards documents. Ask me anything about water heaters, electrical appliances, or other BIS standards!",
+                    []
+                );
+
+            } catch (error) {
+                console.error('Error creating new session:', error);
+                addBotMessage(
+                    "Sorry, I encountered an error creating a new session. Please try again.",
+                    []
+                );
+            }
+        }
+
+        async function clearChatHistory() {
+            if (!currentSessionId) {
+                addBotMessage(
+                    "No active session to clear.",
+                    []
+                );
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/sessions/${currentSessionId}`, {
+                    method: 'DELETE'
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Failed to clear session: ${response.status}`);
+                }
+
+                // Create new session
+                await createNewSession();
+
+            } catch (error) {
+                console.error('Error clearing session:', error);
+                addBotMessage(
+                    "Sorry, I encountered an error clearing the chat history. Please try again.",
+                    []
+                );
+            }
+        }
+
+        async function checkConnection() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/health`, { timeout: 5000 });
+                if (response.ok) {
+                    setStatus(true);
+                } else {
+                    setStatus(false);
+                }
+            } catch (error) {
+                setStatus(false);
+            }
+        }
+
+        function setStatus(isOnline) {
+            if (isOnline) {
+                STATUS_INDICATOR.textContent = '● Online';
+                STATUS_INDICATOR.className = 'status-indicator status-online';
+            } else {
+                STATUS_INDICATOR.textContent = '● Offline';
+                STATUS_INDICATOR.className = 'status-indicator status-offline';
+            }
+        }
+
+        async function sendMessage() {
+            const query = USER_INPUT.value.trim();
+            if (!query || isLoading) return;
+
+            // Disable UI while processing
+            isLoading = true;
+            setUILoading(true);
+            updateSessionInfo('generating');
+
+            // Add user message to chat
+            addUserMessage(query);
+
+            // Clear input
+            USER_INPUT.value = '';
+
+            try {
+                // Show loading indicator
+                addLoadingMessage();
+
+                // Call API with session ID
+                const response = await fetch(`${API_BASE_URL}/chat`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        session_id: currentSessionId,
+                        n_results: 5,
+                        use_hybrid_search: true
+                    })
+                });
+
+                // Remove loading message
+                removeLoadingMessage();
+
+                if (!response.ok) {
+                    throw new Error(`Server error: ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                // Update session ID if server returned a different one
+                if (data.session_id && data.session_id !== currentSessionId) {
+                    currentSessionId = data.session_id;
+                    localStorage.setItem('bis_rag_session_id', currentSessionId);
+                    updateSessionInfo('ready');
+                }
+
+                // Add bot response
+                addBotMessage(data.answer, data.citations);
+
+            } catch (error) {
+                // Remove loading message
+                removeLoadingMessage();
+
+                // Add error message
+                addBotMessage(
+                    `Sorry, I encountered an error: ${error.message}. Please make sure the backend server is running and try again.`,
+                    []
+                );
+            } finally {
+                // Re-enable UI
+                isLoading = false;
+                setUILoading(false);
+                updateSessionInfo('ready');
+                USER_INPUT.focus();
+            }
+        }
+
+        function setUILoading(isLoading) {
+            USER_INPUT.disabled = isLoading;
+            SEND_BUTTON.disabled = isLoading;
+            if (isLoading) {
+                SEND_BUTTON.textContent = 'Sending...';
+            } else {
+                SEND_BUTTON.textContent = 'Send';
+            }
+        }
+
+        // History loading indicator functions
+        function showHistoryLoadingIndicator() {
+            // Add a subtle indicator that history is being loaded
+            const existingIndicator = document.getElementById('history-loading-indicator');
+            if (!existingIndicator) {
+                const indicator = document.createElement('div');
+                indicator.id = 'history-loading-indicator';
+                indicator.innerHTML = '<small>Loading chat history...</small>';
+                indicator.style.display = 'block';
+                indicator.style.textAlign = 'center';
+                indicator.style.color = '#6c757d';
+                indicator.style.fontSize = '0.8rem';
+                indicator.style.marginTop = '5px';
+                // Insert after session-controls
+                const sessionControls = document.querySelector('.session-controls');
+                sessionControls.parentNode.insertBefore(indicator, sessionControls.nextSibling);
+            }
+        }
+
+        function hideHistoryLoadingIndicator() {
+            const indicator = document.getElementById('history-loading-indicator');
+            if (indicator) {
+                indicator.remove();
+            }
+        }
+
+        function updateHistoryIndicator(message, isError = false) {
+            const indicator = document.getElementById('history-loading-indicator');
+            if (indicator) {
+                indicator.innerHTML = `<small>${message}</small>`;
+                indicator.style.color = isError ? '#dc3545' : '#28a745';
+                // Hide after 3 seconds if not an error
+                if (!isError) {
+                    setTimeout(() => {
+                        indicator.remove();
+                    }, 3000);
+                }
+            }
+        }
+
+        // Document preview functions
+        function showDocumentPreview(isNumber, docType) {
+            // In a real implementation, this would fetch document metadata
+            // and show a modal with preview and download options
+            // For now, we'll guide users to use the download links in citations
+            alert(`Document: ${isNumber} - ${docType}\n\nTo download this document:\n1. Look for the 📄 download icon next to the citation in the chat\n2. Click it to download the PDF\n\nOr you can ask me to help you find specific documents!`);
+        }
+
+        function addUserMessage(text) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message user-message';
+            messageDiv.innerHTML = `
+                ${text}
+                <span class="message-time">Just now</span>
+            `;
+            CHAT_MESSAGES.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        async function loadChatHistory() {
+            if (!currentSessionId) return;
+
+            showHistoryLoadingIndicator();
+            try {
+                const response = await fetch(`${API_BASE_URL}/sessions/${currentSessionId}/messages`, {
+                    method: 'GET'
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Failed to load chat history: ${response.status}`);
+                }
+
+                const messages = await response.json();
+
+                // Clear existing messages
+                CHAT_MESSAGES.innerHTML = '';
+
+                // Add all messages
+                messages.forEach(msg => {
+                    if (msg.role === 'user') {
+                        addUserMessage(msg.content);
+                    } else if (msg.role === 'assistant') {
+                        // Extract citations from metadata if available
+                        let citations = [];
+                        try {
+                            // In our current implementation, citations might be in metadata
+                            // For now, we'll pass an empty array and rely on the message content
+                            // In a more complete implementation, we'd parse metadata for citations
+                        } catch (e) {
+                            // Ignore parsing errors
+                        }
+                        addBotMessage(msg.content, citations);
+                    }
+                });
+
+                updateHistoryIndicator(`Loaded ${messages.length} messages`);
+                hideHistoryLoadingIndicator();
+
+            } catch (error) {
+                console.error('Error loading chat history:', error);
+                updateHistoryIndicator('Error loading history', true);
+                // Don't show error to user for history loading - just start fresh
+                hideHistoryLoadingIndicator();
+            }
+        }
+
+        function addBotMessage(text, citations = []) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message bot-message';
+
+            let citationsHTML = '';
+            if (citations && citations.length > 0) {
+                citationsHTML = '<div class="citations"><strong>Sources:</strong>';
+                citations.forEach((citation, index) => {
+                    // Create a more user-friendly citation display
+                    const isNumber = citation.is_number || 'Unknown';
+                    const docType = citation.doc_type || 'Unknown Document';
+                    const pageNum = citation.page_number || 'N/A';
+                    const filename = citation.metadata?.filename || '';
+
+                    // Create a readable citation with link to document
+                    let citationText = `[${index + 1}] <a href="#" class="citation-link" data-is-number="${isNumber}" data-doc-type="${docType}">${isNumber}`;
+                    if (docType && docType !== 'Unknown Document') {
+                        citationText += ` - ${docType}`;
+                    }
+                    if (pageNum && pageNum !== 'N/A') {
+                        citationText += `, Page ${pageNum}`;
+                    }
+                    citationText += '</a>';
+
+                    // Add download link if we have filename
+                    if (filename) {
+                        citationText += ` <a href="/documents/${isNumber}/download/${encodeURIComponent(filename)}" class="download-link" title="Download PDF">📄</a>`;
+                    }
+
+                    citationsHTML += `<div class="citation-item">${citationText}</div>`;
+                });
+                citationsHTML += '</div>';
+            }
+
+            messageDiv.innerHTML = `
+                ${text}
+                ${citationsHTML}
+                <span class="message-time">Just now</span>
+            `;
+            CHAT_MESSAGES.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function addLoadingMessage() {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message bot-message loading';
+            messageDiv.innerHTML = `
+                Thinking...<span class="message-time">0s</span>
+                <div id="loading-timer" style="font-size: 0.8em; opacity: 0.7; margin-top: 2px;">Elapsed: 0s</div>
+            `;
+            messageDiv.id = 'loading-message';
+            CHAT_MESSAGES.appendChild(messageDiv);
+            scrollToBottom();
+
+            // Start timer
+            loadingStartTime = Date.now();
+            loadingTimer = setInterval(() => {
+                const elapsedSeconds = Math.floor((Date.now() - loadingStartTime) / 1000);
+                const timerElement = document.getElementById('loading-timer');
+                const timeElement = messageDiv.querySelector('.message-time');
+                if (timerElement) {
+                    timerElement.textContent = `Elapsed: ${elapsedSeconds}s`;
+                }
+                if (timeElement) {
+                    timeElement.textContent = `${elapsedSeconds}s`;
+                }
+            }, 1000);
+        }
+
+        function removeLoadingMessage() {
+            if (loadingTimer) {
+                clearInterval(loadingTimer);
+                loadingTimer = null;
+            }
+            const loadingMessage = document.getElementById('loading-message');
+            if (loadingMessage) {
+                loadingMessage.remove();
+            }
+        }
+
+        function scrollToBottom() {
+            CHAT_MESSAGES.scrollTop = CHAT_MESSAGES.scrollHeight;
+        }
+
+        function setQuery(element) {
+            const query = element.textContent;
+            USER_INPUT.value = query;
+            USER_INPUT.focus();
+        }
+
+        // Periodically check connection status
+        setInterval(checkConnection, 10000);
+    </script>
+</body>
+</html>

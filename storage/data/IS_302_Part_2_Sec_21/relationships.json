@@ -1,0 +1,219 @@
+[
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "REFERENCES_IS",
+    "target_id": "IS_302-2",
+    "source_page": 1,
+    "target_text": "IS 302-2"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_101_1",
+    "source_page": 1,
+    "target_text": "Clause 101.1"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_1",
+    "source_page": 1,
+    "target_text": "Clause 1"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "REFERENCES_IS",
+    "target_id": "IS_302",
+    "source_page": 2,
+    "target_text": "IS 302"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_101",
+    "source_page": 2,
+    "target_text": "Clause 101"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_2",
+    "source_page": 2,
+    "target_text": "Clause 2"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_101_3",
+    "source_page": 2,
+    "target_text": "Clause 101.3"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_1789",
+    "source_page": 1,
+    "target_text": "Clause 1789"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_3",
+    "source_page": 3,
+    "target_text": "Clause 3"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_4",
+    "source_page": 3,
+    "target_text": "Clause 4"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "REFERENCES_IS",
+    "target_id": "IS_191",
+    "source_page": 2,
+    "target_text": "IS 191"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "REFERENCES_IS",
+    "target_id": "IS_1570",
+    "source_page": 2,
+    "target_text": "IS 1570"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "REFERENCES_IS",
+    "target_id": "IS_13273",
+    "source_page": 2,
+    "target_text": "IS 13273"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_24",
+    "source_page": 2,
+    "target_text": "Clause 24"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "REFERENCES_IS",
+    "target_id": "IS_2082",
+    "source_page": 4,
+    "target_text": "IS 2082"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_27",
+    "source_page": 5,
+    "target_text": "Clause 27"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_13_3",
+    "source_page": 5,
+    "target_text": "Clause 13.3"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_30",
+    "source_page": 5,
+    "target_text": "Clause 30"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_19",
+    "source_page": 5,
+    "target_text": "Clause 19"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_11",
+    "source_page": 5,
+    "target_text": "Clause 11"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_15",
+    "source_page": 5,
+    "target_text": "Clause 15"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_29",
+    "source_page": 5,
+    "target_text": "Clause 29"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_22_101",
+    "source_page": 5,
+    "target_text": "Clause 22.101"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_25",
+    "source_page": 5,
+    "target_text": "Clause 25"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_21",
+    "source_page": 5,
+    "target_text": "Clause 21"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_7",
+    "source_page": 6,
+    "target_text": "Clause 7"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_5",
+    "source_page": 6,
+    "target_text": "Clause 5"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_6",
+    "source_page": 6,
+    "target_text": "Clause 6"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "REFERENCES_IS",
+    "target_id": "IS_302-1",
+    "source_page": 7,
+    "target_text": "IS 302-1"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_16",
+    "source_page": 7,
+    "target_text": "Clause 16"
+  },
+  {
+    "source_id": "IS_302_(Part_2/Sec_21)_2018_2018",
+    "relationship": "CONTAINS_CLAUSE",
+    "target_id": "CLAUSE_26",
+    "source_page": 8,
+    "target_text": "Clause 26"
+  }
+]

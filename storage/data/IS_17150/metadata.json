@@ -1,0 +1,122 @@
+{
+  "is_number": "IS 17150:2019",
+  "doc_no": "17150",
+  "part": null,
+  "section": null,
+  "year": "2019",
+  "title": "Mini Domestic Water Heater for use with Piped Natural Gas (PNG)",
+  "class": "CORE",
+  "fuel_type": "gas",
+  "standard_enc_id": "eyJpdiI6IkwvdTZHL0ptM1A0YmR2ZVdUbTQ2UEE9PSIsInZhbHVlIjoicGRnczZrWStTSW1XWFY1dkY4eVlyQT09IiwibWFjIjoiMjJjNGUxMjJjY2ZhMDc3MTAxNjdlNTFiODlkMmFkYTljM2JkZDUxMTBhYTk3NDkxNWE2YTQwMDU0NDBkZjI0MiIsInRhZyI6IiJ9",
+  "standard_id": 24144,
+  "standard_number_api": "IS 17150:2019",
+  "standard_name_api": "Mini domestic water heater for use with piped natural gas (PNG) ? specification",
+  "published_on": "2019-06-30",
+  "valid_upto": "2029-03-31",
+  "withdraw_status": 1,
+  "department_id": 68,
+  "committee_id": 1,
+  "full_standard_access": "restricted",
+  "collection_status": {
+    "metadata": "available",
+    "product_manual": "available",
+    "sit": "embedded_in_product_manual",
+    "amendments": "available",
+    "qco_gazette": "available",
+    "laboratories": "available",
+    "guidelines": "not_found"
+  },
+  "product_manuals": [
+    {
+      "local_path": "storage\\data\\IS_17150\\documents\\product_manual_690300275d79b1761804327_30102025113527_690300275d79b1761804327.pdf",
+      "source_url": "https://bmqsdqljvwgm.compat.objectstorage.ap-mumbai-1.oraclecloud.com/BisProd/bisProd/Standard_Review/Standard_Product_Manual/product_manual_690300275d79b1761804327_30102025113527_690300275d79b1761804327.pdf",
+      "sha256": "5255d756edc48f3b8d73e6cfb5521da0dd411e0cea1b105aedc154deb9b3701d",
+      "retrieved_at": "2026-09-24T20:14:30.261767+00:00",
+      "status": "already_exists",
+      "document_type": "product_manual",
+      "document_id": "DOC_17150_PM_24155"
+    }
+  ],
+  "laboratories": [
+    {
+      "S.No.": "1",
+      "Lab Name": "Shri Krishna Test House",
+      "Osl Code": "8122336",
+      "Indian Standard No.": "IS 17150 (2019)",
+      "Product": "Mini domestic water heater for use with piped natural gas (PNG) ? specification",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "30000 \n-",
+      "Validity Date": "05 Oct, 2028",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "2",
+      "Lab Name": "SHRI KRISHNA TEST HOUSE PVT LTD (142)",
+      "Osl Code": "8185606",
+      "Indian Standard No.": "IS 17150 (2019)",
+      "Product": "Mini domestic water heater for use with piped natural gas (PNG) ? specification",
+      "Grade / Type / Size / Designation etc.": "ALL",
+      "Testing Charges (Excl. Of Taxes)": "30000 \n-",
+      "Validity Date": "13 May, 2028",
+      "Remark": "-\nIncluded w.e.f.23.06.2025"
+    }
+  ],
+  "qco_gazettes": [
+    {
+      "local_path": "storage\\data\\IS_17150\\documents\\Electrical-Appliances-for-domestic-water-heating-Quality-Control-Order-2023.pdf",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2024/03/Electrical-Appliances-for-domestic-water-heating-Quality-Control-Order-2023.pdf",
+      "sha256": "336b9b9153f0587612b27bcb2226f016777dafc470c50615f153cce2e31cc80c",
+      "retrieved_at": "2026-09-24T21:02:59.304113+00:00",
+      "status": "downloaded",
+      "document_type": "qco",
+      "document_id": "DOC_17150_QCO_0"
+    }
+  ],
+  "amendments": [
+    {
+      "local_path": "storage\\data\\IS_17150\\documents\\amendment_0.pdf",
+      "source_url": "https://bmqsdqljvwgm.compat.objectstorage.ap-mumbai-1.oraclecloud.com/BisProd/bisProd/oldStandards/S16/S16V01/17150A1.pdf",
+      "sha256": "697aa56f966a25a5ea3fb94117609ee33d1441f9f47a5935359acbbcd60ebad1",
+      "retrieved_at": "2026-09-24T21:11:11.579748+00:00",
+      "status": "downloaded",
+      "document_type": "amendment",
+      "document_id": "DOC_17150_AM_0"
+    },
+    {
+      "local_path": "storage\\data\\IS_17150\\documents\\amendment_1.pdf",
+      "source_url": "https://bmqsdqljvwgm.compat.objectstorage.ap-mumbai-1.oraclecloud.com/BisProd/bisProd/oldStandards/S16/S16V01/17150A2.pdf",
+      "sha256": "dfc265e18fcedb08f5ba3a612fd3dc247356728fcbd19d519ba4313627677ea0",
+      "retrieved_at": "2026-09-24T21:11:13.167212+00:00",
+      "status": "downloaded",
+      "document_type": "amendment",
+      "document_id": "DOC_17150_AM_1"
+    },
+    {
+      "local_path": "storage\\data\\IS_17150\\documents\\amendment_2.pdf",
+      "source_url": "https://bmqsdqljvwgm.compat.objectstorage.ap-mumbai-1.oraclecloud.com/BisProd/bisProd/oldStandards/S16/S16V01/17150A3.pdf",
+      "sha256": "b661b8606126cb6165f5451248cc7af3e3dd0b2cf62b26bb59336b6a7f64c6d7",
+      "retrieved_at": "2026-09-24T21:11:15.031362+00:00",
+      "status": "downloaded",
+      "document_type": "amendment",
+      "document_id": "DOC_17150_AM_2"
+    }
+  ],
+  "tested_by_relations": [
+    {
+      "source_id": "IS 17150:2019",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8122336",
+      "target_type": "laboratory",
+      "lab_name": "Shri Krishna Test House",
+      "lab_id": "8122336"
+    },
+    {
+      "source_id": "IS 17150:2019",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8185606",
+      "target_type": "laboratory",
+      "lab_name": "SHRI KRISHNA TEST HOUSE PVT LTD (142)",
+      "lab_id": "8185606"
+    }
+  ]
+}

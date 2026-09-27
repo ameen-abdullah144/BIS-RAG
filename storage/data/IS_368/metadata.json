@@ -1,0 +1,617 @@
+{
+  "is_number": "IS 368:2014",
+  "doc_no": "368",
+  "part": null,
+  "section": null,
+  "year": "2014",
+  "title": "Electric Immersion Water Heaters",
+  "class": "CORE",
+  "fuel_type": "electric",
+  "standard_enc_id": "eyJpdiI6IkRsMU1hNFU2WDdSWG5YNno1N2xPeXc9PSIsInZhbHVlIjoiaWRNbHNSY1ZCVVRJT3N4VFRWeVBBdz09IiwibWFjIjoiNWM0ZWQ4NWUyMGM4NGZmMThjNmNkMDhlNzU5MDA0NzFhZDc2MmVlOWEzMWIzNmFlMDM3OTRiMjQyNzA1NTFlZiIsInRhZyI6IiJ9",
+  "standard_id": 10273,
+  "standard_number_api": "IS 368:2014",
+  "standard_name_api": "Electric immersion water heaters - Specification (Fifth Revision)",
+  "published_on": "2014-03-31",
+  "valid_upto": "2031-01-16",
+  "withdraw_status": 0,
+  "department_id": 65,
+  "committee_id": 265,
+  "full_standard_access": "restricted",
+  "collection_status": {
+    "metadata": "available",
+    "product_manual": "available",
+    "sit": "embedded_in_product_manual",
+    "amendments": "available",
+    "qco_gazette": "available",
+    "laboratories": "available",
+    "guidelines": "not_found"
+  },
+  "product_manuals": [
+    {
+      "local_path": "storage\\data\\IS_368\\documents\\product_manual_69c255410d53d1774343489_24032026144129_69c255410d53d1774343489.pdf",
+      "source_url": "https://bmqsdqljvwgm.compat.objectstorage.ap-mumbai-1.oraclecloud.com/BisProd/bisProd/Standard_Review/Standard_Product_Manual/product_manual_69c255410d53d1774343489_24032026144129_69c255410d53d1774343489.pdf",
+      "sha256": "d5136f3092c4ec2ef8e27c15f242109053c8070db2b02daae8612bd31525597d",
+      "retrieved_at": "2026-09-24T20:14:26.491677+00:00",
+      "status": "already_exists",
+      "document_type": "product_manual",
+      "document_id": "DOC_368_PM_10274"
+    }
+  ],
+  "laboratories": [
+    {
+      "S.No.": "1",
+      "Lab Name": "Samridhi Test House Pvt. Ltd.",
+      "Osl Code": "8184706",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "All Grade / Type / Size / Designation",
+      "Testing Charges (Excl. Of Taxes)": "5900 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nIncluded w.e.f. 22.07.2026 Exclusion: \"19.11.4.1 (Electrostatic discharges) 19.11.4.2 (Radiated fields) 19.11.4.3 (Fast transient bursts) 19.11.4.4 (Surge immunity test) 19.11.4.5 (Immunity to conducted discharges) 19.11.4.6 (Class 3 Voltage dips and interruptions) 19.11.4.7 (Harmonics) \""
+    },
+    {
+      "S.No.": "2",
+      "Lab Name": "DYNAMIC TEST LABORATORIES LLP",
+      "Osl Code": "9197626",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Electrical",
+      "Testing Charges (Excl. Of Taxes)": "10000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nIncluded w.e.f-18.09.2026 EMI/EMC (Cl 19.11.4.1 to Cl 19.11.4.7)"
+    },
+    {
+      "S.No.": "3",
+      "Lab Name": "Shri Krishna Test House",
+      "Osl Code": "8122336",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "12000 \n-",
+      "Validity Date": "5 Oct, 2028",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "4",
+      "Lab Name": "CENTRAL ELECTRICAL TESTING LABORATORY (CETL), KAKKALUR",
+      "Osl Code": "6104524",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "13800 \n-",
+      "Validity Date": "31 Dec, 2026",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "5",
+      "Lab Name": "Electrical Research and Development Association, gujurat",
+      "Osl Code": "7101125",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Up to and including 5 kW",
+      "Testing Charges (Excl. Of Taxes)": "26050 \n-",
+      "Validity Date": "30 Nov, 2028",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "6",
+      "Lab Name": "URS PRODUCTS AND TESTING PVT. LTD. (A29), NOIDA",
+      "Osl Code": "8168906",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "30000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nIncluded w.e.f. 14.01.2026"
+    },
+    {
+      "S.No.": "7",
+      "Lab Name": "Akshat Test Lab & Calibration Services, Ghaziabad",
+      "Osl Code": "8186526",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "10000 \n-",
+      "Validity Date": "-",
+      "Remark": "-\n\"1 19.11.4.1 (Electrostatic discharges) Electrostatics discharges Test facility not available 2 19.11.4.2 (Radiated fields) Radiated fields 27±5°C Ambient Temperature 60±5% RH 3 19.11.4.3 (Fast transient bursts) Fast transient bursts 27±5°C Ambient Temperature 60±5% RH 4 19.11.4.4 (Surge immunity test) Surge immunity test 27±5°C Ambient Temperature 60±5% RH 5 19.11.4.5 (Immunity to conducted discharges) Immunity to conducted dischagres 27±5°C Ambient Temperature 60±5% RH 6 19.11.4.6 (Class 3 Voltage dips and interruptions) Class 3 Voltage dips and interruptions 27±5°C Ambient Temperature 60±5% RH 7 19.11.4.7 (Harmonics) Harmonics 27±5°C Ambient Temperature 60±5% RH\""
+    },
+    {
+      "S.No.": "8",
+      "Lab Name": "EMC Testing and Compliance LLP, Gurugram",
+      "Osl Code": "8141526",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "12500 \n-",
+      "Validity Date": "19 Jul, 2027",
+      "Remark": "-\nIncluded w.e.f 15.10.2025 Exclusion: Cl 19.11.4.1-19.11.4.7(EMI/EMC),Cl.32 of IS 302-2-201:2008 (Radiation, Toxicity and Similar Hazards)"
+    },
+    {
+      "S.No.": "9",
+      "Lab Name": "Dashmesh Test Lab Private Limited",
+      "Osl Code": "8186926",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "ALL",
+      "Testing Charges (Excl. Of Taxes)": "10000 \n-",
+      "Validity Date": "22 Jul, 2028",
+      "Remark": "-\nIncluded w.e.f.01.10.2025 Exclusion Cl 19.11.4.1 to Cl 19.11.4.7 EMI/EMC"
+    },
+    {
+      "S.No.": "10",
+      "Lab Name": "Global Scientific Solution (P) Ltd.",
+      "Osl Code": "8189526",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Rated voltage being not more than 250 V.",
+      "Testing Charges (Excl. Of Taxes)": "7500 \n-",
+      "Validity Date": "31 Oct, 2028",
+      "Remark": "-\nCl. 19.11.4.1 to Cl. 19.11.4.7 (EMI/EMC), Cl. 24, Cl. 32.2, Cl. 15.1.1(IPX7-8), Cl 12 as per IS 302-2-201"
+    },
+    {
+      "S.No.": "11",
+      "Lab Name": "Vardhamana Testing Laboratory OPC Pvt. Ltd.",
+      "Osl Code": "8178226",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Electric Immersion Water heater",
+      "Testing Charges (Excl. Of Taxes)": "25000 \n-",
+      "Validity Date": "29 Apr, 2027",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "12",
+      "Lab Name": "BUREAU VERITAS CONSUMER PRODUCTS SERVICES INDIA PRIVATE LIMITED, NOIDA",
+      "Osl Code": "8127706",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "65000 \n-",
+      "Validity Date": "31 Dec, 2029",
+      "Remark": "-\nIncluded w.e.f.20.06.2025 Exclusion (EMI/EMC)Cl 19.11.4.1 TO Cl 19.11.4.7"
+    },
+    {
+      "S.No.": "13",
+      "Lab Name": "ACCURATE TEST SOLUTIONS LLP (F21), NOIDA",
+      "Osl Code": "8141226",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "14500 \n-",
+      "Validity Date": "4 Jul, 2027",
+      "Remark": "-\nIncluded w.e.f 11.02.2025 Exclusion : Cl 19.11.4.1 to Cl 19.11.4.7 (EMI/EMC), Cl 24 Component"
+    },
+    {
+      "S.No.": "14",
+      "Lab Name": "Aaditech Test and Calibration Lab LLP",
+      "Osl Code": "8179926",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "ELECTRICAL",
+      "Testing Charges (Excl. Of Taxes)": "8500 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nINCLUDED w.e.f 03.02.2025 Exclusion : Cl 19.11.4.1 to 19.11.4.7 (EMI/EMC)"
+    },
+    {
+      "S.No.": "15",
+      "Lab Name": "Alpha Test House Private Limited, Delhi",
+      "Osl Code": "8131026",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "12500 \n-",
+      "Validity Date": "-",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "16",
+      "Lab Name": "Cotecna Inspection India Private Limited, Gurugram",
+      "Osl Code": "8166106",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "23550 \n-",
+      "Validity Date": "-",
+      "Remark": "-\nExcl: Abnormal operation (Cl.19.11.4.1 to 19.11.4.4)"
+    },
+    {
+      "S.No.": "17",
+      "Lab Name": "Classic Testing & Research Centre (B17), Noida",
+      "Osl Code": "8180826",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "14000 \n-",
+      "Validity Date": "15 Oct, 2027",
+      "Remark": "-\nIncluded w.e.f.12.12.2024 Exclusion 19.11.4.2 (Radiated fields) 19.11.4.5 (Immunity to conducted discharges)"
+    },
+    {
+      "S.No.": "18",
+      "Lab Name": "ALAIPURIA TEST HOUSE PRIVATE LIMITED, GHAZIABAD",
+      "Osl Code": "8180426",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-----",
+      "Testing Charges (Excl. Of Taxes)": "25000 \n-",
+      "Validity Date": "3 Oct, 2027",
+      "Remark": "-\nIncluded.w.e.f.09.11.2024 Exclusion 32 (RADIATION, TOXICITY AND SIMILAR HAZARDS) 19.11.4.1 to 19.11.4.5 (EMI/EMC)"
+    },
+    {
+      "S.No.": "19",
+      "Lab Name": "Bharat Test House Pvt Ltd 781 Sonipat Haryana",
+      "Osl Code": "9137826",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "7500 \n-",
+      "Validity Date": "31 Dec, 2029",
+      "Remark": "-\nREVISED TESTING CHARGES W.E.F. 5-7-2021. EXCLUSIONS: EMI/EMC tests (Electrostatic discharges, radiant fields, fast transient bursts, voltage surges, injected current, voltage dip and interruption, mains signals) (Cl.19.11.4.1 to 19.11.4.7), Components (Capacitors for radio interference suppression, isolating transformer, coupler) (Cl.24.1.1, 24.1.2, 24.1.5)"
+    },
+    {
+      "S.No.": "20",
+      "Lab Name": "THE NATIONAL SMALL INDUSTRIES CORPORATION LIMITED, TECHNICAL SERVICES CENTRE - NSIC, Rajpura",
+      "Osl Code": "9111924",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "14000 \n-",
+      "Validity Date": "31 Dec, 2026",
+      "Remark": "-\nRestricted upto 6 kW Excluding Cl.19.11.4.1 to Cl.19.11.4.7 (EMI/EMC Test) Cl.32 of IS 302-2-15 (Radiation, Toxicity and Similar Hazards)"
+    },
+    {
+      "S.No.": "21",
+      "Lab Name": "POWERONIC TEST & RESEARCH CENTRE PRIVATE LIMITED, GREATER NOIDA",
+      "Osl Code": "8170206",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "Electric Immersion water heater",
+      "Testing Charges (Excl. Of Taxes)": "10000 \n-",
+      "Validity Date": "11 Apr, 2028",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "22",
+      "Lab Name": "ABSOLUTE EXPERTISE TESTING LABORATORY LLP",
+      "Osl Code": "8176726",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "20200 \n-",
+      "Validity Date": "11 Mar, 2027",
+      "Remark": "-\nExclusion: Cl. 19.11.4.1 (Electrostatic discharges), Cl. 19.11.4.2 (Radiated fields), Cl. 19.11.4.3 (Fast transient bursts), Cl. 19.11.4.4 (Surge immunity test), Cl. 19.11.4.5 (Immunity to conducted discharges), Cl. 19.11.4.6 (Class 3 Voltage dips and interruptions), Cl. 19.11.4.7 (Harmonics)"
+    },
+    {
+      "S.No.": "23",
+      "Lab Name": "IEC TEST LABS LLP",
+      "Osl Code": "8165726",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "ELECTRIC IMMERSION WATER HEATERS",
+      "Testing Charges (Excl. Of Taxes)": "30000 \nRs.30000/-(20% discount to BIS).",
+      "Validity Date": "7 Sep, 2029",
+      "Remark": "-\nIncluded w.e.f. 11-01-2022."
+    },
+    {
+      "S.No.": "24",
+      "Lab Name": "National Research and Technology Consortium (NRTC), Parwanoo",
+      "Osl Code": "9136024",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "12600 \n-",
+      "Validity Date": "10 Apr, 2029",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "25",
+      "Lab Name": "Stellar Test House, Noida",
+      "Osl Code": "8171606",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "6000.00 \n-",
+      "Validity Date": "26 Sep, 2028",
+      "Remark": "-\nIncluded w.e.f. 19.12.2023. Exclusion: Radiation, toxicity & Similar Hazards (Cl.32)"
+    },
+    {
+      "S.No.": "26",
+      "Lab Name": "ATCC TEST LABS LLP",
+      "Osl Code": "8172626",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "26000 \n-",
+      "Validity Date": "15 Jun, 2029",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "27",
+      "Lab Name": "BLUESKY LAB LLP, GHAZIABAD",
+      "Osl Code": "8170306",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "19000 \n-",
+      "Validity Date": "22 May, 2028",
+      "Remark": "-\nRestricted Upto 5KW EMI/EMC tests (Electrostatic discharges, radiant fields, fast transient bursts, voltage surges, injected current, voltage dip and interruption, mains signals) (Cl.19.11.4.1 to 19.11.4.7), Components (Capacitors for radio interference suppression, isolating transformer, coupler) (Cl.24.1.1, 24.1.2, 24.1.5)"
+    },
+    {
+      "S.No.": "28",
+      "Lab Name": "BIS, Central Laboratory (CL)",
+      "Osl Code": "None",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "- \nFor 1 kW & 1.5 kW: Rs.12150.00 For 2 kW and 3 kW: Rs.13050.00",
+      "Validity Date": "-",
+      "Remark": "-\n-"
+    },
+    {
+      "S.No.": "29",
+      "Lab Name": "BIS, Northern Regional Laboratory (NRL)",
+      "Osl Code": "None",
+      "Indian Standard No.": "IS 368 (2014)",
+      "Product": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "Grade / Type / Size / Designation etc.": "-",
+      "Testing Charges (Excl. Of Taxes)": "12600/- \n-",
+      "Validity Date": "-",
+      "Remark": "-\nExcluding test facility not availble for rating above 3kW"
+    }
+  ],
+  "qco_gazettes": [
+    {
+      "local_path": "storage\\data\\IS_368\\documents\\Electrical-Appliances-for-domestic-water-heating-Quality-Control-Order-2023.pdf",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2024/03/Electrical-Appliances-for-domestic-water-heating-Quality-Control-Order-2023.pdf",
+      "sha256": "336b9b9153f0587612b27bcb2226f016777dafc470c50615f153cce2e31cc80c",
+      "retrieved_at": "2026-09-24T21:02:54.429624+00:00",
+      "status": "downloaded",
+      "document_type": "qco",
+      "document_id": "DOC_368_QCO_0"
+    }
+  ],
+  "amendments": [
+    {
+      "local_path": "storage\\data\\IS_368\\documents\\amendment_0.pdf",
+      "source_url": "https://bmqsdqljvwgm.compat.objectstorage.ap-mumbai-1.oraclecloud.com/BisProd/bisProd/oldStandards/S16/S16V01/368A1.pdf",
+      "sha256": "526628e5a7e0148e294c0d02f10c34a53105c42ffb86840a5d8162c89d89c446",
+      "retrieved_at": "2026-09-24T21:11:06.072652+00:00",
+      "status": "downloaded",
+      "document_type": "amendment",
+      "document_id": "DOC_368_AM_0"
+    }
+  ],
+  "tested_by_relations": [
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8184706",
+      "target_type": "laboratory",
+      "lab_name": "Samridhi Test House Pvt. Ltd.",
+      "lab_id": "8184706"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9197626",
+      "target_type": "laboratory",
+      "lab_name": "DYNAMIC TEST LABORATORIES LLP",
+      "lab_id": "9197626"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8122336",
+      "target_type": "laboratory",
+      "lab_name": "Shri Krishna Test House",
+      "lab_id": "8122336"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_6104524",
+      "target_type": "laboratory",
+      "lab_name": "CENTRAL ELECTRICAL TESTING LABORATORY (CETL), KAKKALUR",
+      "lab_id": "6104524"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_7101125",
+      "target_type": "laboratory",
+      "lab_name": "Electrical Research and Development Association, gujurat",
+      "lab_id": "7101125"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8168906",
+      "target_type": "laboratory",
+      "lab_name": "URS PRODUCTS AND TESTING PVT. LTD. (A29), NOIDA",
+      "lab_id": "8168906"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8186526",
+      "target_type": "laboratory",
+      "lab_name": "Akshat Test Lab & Calibration Services, Ghaziabad",
+      "lab_id": "8186526"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8141526",
+      "target_type": "laboratory",
+      "lab_name": "EMC Testing and Compliance LLP, Gurugram",
+      "lab_id": "8141526"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8186926",
+      "target_type": "laboratory",
+      "lab_name": "Dashmesh Test Lab Private Limited",
+      "lab_id": "8186926"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8189526",
+      "target_type": "laboratory",
+      "lab_name": "Global Scientific Solution (P) Ltd.",
+      "lab_id": "8189526"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8178226",
+      "target_type": "laboratory",
+      "lab_name": "Vardhamana Testing Laboratory OPC Pvt. Ltd.",
+      "lab_id": "8178226"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8127706",
+      "target_type": "laboratory",
+      "lab_name": "BUREAU VERITAS CONSUMER PRODUCTS SERVICES INDIA PRIVATE LIMITED, NOIDA",
+      "lab_id": "8127706"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8141226",
+      "target_type": "laboratory",
+      "lab_name": "ACCURATE TEST SOLUTIONS LLP (F21), NOIDA",
+      "lab_id": "8141226"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8179926",
+      "target_type": "laboratory",
+      "lab_name": "Aaditech Test and Calibration Lab LLP",
+      "lab_id": "8179926"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8131026",
+      "target_type": "laboratory",
+      "lab_name": "Alpha Test House Private Limited, Delhi",
+      "lab_id": "8131026"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8166106",
+      "target_type": "laboratory",
+      "lab_name": "Cotecna Inspection India Private Limited, Gurugram",
+      "lab_id": "8166106"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8180826",
+      "target_type": "laboratory",
+      "lab_name": "Classic Testing & Research Centre (B17), Noida",
+      "lab_id": "8180826"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8180426",
+      "target_type": "laboratory",
+      "lab_name": "ALAIPURIA TEST HOUSE PRIVATE LIMITED, GHAZIABAD",
+      "lab_id": "8180426"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9137826",
+      "target_type": "laboratory",
+      "lab_name": "Bharat Test House Pvt Ltd 781 Sonipat Haryana",
+      "lab_id": "9137826"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9111924",
+      "target_type": "laboratory",
+      "lab_name": "THE NATIONAL SMALL INDUSTRIES CORPORATION LIMITED, TECHNICAL SERVICES CENTRE - NSIC, Rajpura",
+      "lab_id": "9111924"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8170206",
+      "target_type": "laboratory",
+      "lab_name": "POWERONIC TEST & RESEARCH CENTRE PRIVATE LIMITED, GREATER NOIDA",
+      "lab_id": "8170206"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8176726",
+      "target_type": "laboratory",
+      "lab_name": "ABSOLUTE EXPERTISE TESTING LABORATORY LLP",
+      "lab_id": "8176726"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8165726",
+      "target_type": "laboratory",
+      "lab_name": "IEC TEST LABS LLP",
+      "lab_id": "8165726"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_9136024",
+      "target_type": "laboratory",
+      "lab_name": "National Research and Technology Consortium (NRTC), Parwanoo",
+      "lab_id": "9136024"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8171606",
+      "target_type": "laboratory",
+      "lab_name": "Stellar Test House, Noida",
+      "lab_id": "8171606"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8172626",
+      "target_type": "laboratory",
+      "lab_name": "ATCC TEST LABS LLP",
+      "lab_id": "8172626"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_8170306",
+      "target_type": "laboratory",
+      "lab_name": "BLUESKY LAB LLP, GHAZIABAD",
+      "lab_id": "8170306"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_None",
+      "target_type": "laboratory",
+      "lab_name": "BIS, Central Laboratory (CL)",
+      "lab_id": "None"
+    },
+    {
+      "source_id": "IS 368:2014",
+      "relationship": "TESTED_BY",
+      "target_id": "LAB_None",
+      "target_type": "laboratory",
+      "lab_name": "BIS, Northern Regional Laboratory (NRL)",
+      "lab_id": "None"
+    }
+  ]
+}
